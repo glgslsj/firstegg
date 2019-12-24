@@ -1,0 +1,359 @@
+2019-12-24 15:52:01,442 ERROR 6116 [-/::1/-/15ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\tryproject\eggtry\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\tryproject\eggtry\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 6116
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:23:51,037 ERROR 10524 [-/::1/-/12ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:25:56,984 ERROR 10524 [-/::1/-/1ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:25:58,955 ERROR 10524 [-/::1/-/1ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:25:59,837 ERROR 10524 [-/::1/-/1ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:26:26,092 INFO 12560 [-/::1/-/10ms GET /] some request data: {}
+2019-12-24 16:36:19,159 INFO 12560 [-/::1/-/1ms GET /] some request data: {}
+2019-12-24 16:36:20,723 INFO 12560 [-/::1/-/0ms GET /] some request data: {}
+2019-12-24 16:36:45,156 INFO 20948 [-/::1/-/9ms GET /] some request data: {}
+2019-12-24 16:36:45,829 INFO 20948 [-/::1/-/2ms GET /] some request data: {}
+2019-12-24 16:44:24,371 ERROR 20944 [-/127.0.0.1/-/19ms GET /] nodejs.TypeError: ctx.service.mycurl is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:42)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 20944
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:45:19,662 ERROR 18772 [-/::1/-/14ms GET /] nodejs.TypeError: ctx.service.mycurl is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:42)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 18772
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:46:05,659 INFO 2180 [-/::1/-/59ms GET /] some request data: {"data":{"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]},"status":200,"headers":{"server":"nginx/1.13.7","date":"Tue, 24 Dec 2019 08:46:06 GMT","content-type":"text/plain; charset=utf-8","content-length":"11","connection":"keep-alive","set-cookie":["csrfToken=Fe6ENGLEoHRhiV8in8dZDsdx; path=/"],"x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"1"},"res":{"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx/1.13.7","date":"Tue, 24 Dec 2019 08:46:06 GMT","content-type":"text/plain; charset=utf-8","content-length":"11","connection":"keep-alive","set-cookie":["csrfToken=Fe6ENGLEoHRhiV8in8dZDsdx; path=/"],"x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"1"},"size":11,"aborted":false,"rt":43,"keepAliveSocket":false,"data":{"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]},"requestUrls":["http://112.126.102.214:8082/"],"timing":null,"remoteAddress":"112.126.102.214","remotePort":8082,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-12-24 16:50:19,902 INFO 2180 [-/::1/-/32ms GET /] some request data: {"data":{"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]},"status":200,"headers":{"server":"nginx/1.13.7","date":"Tue, 24 Dec 2019 08:50:20 GMT","content-type":"text/plain; charset=utf-8","content-length":"11","connection":"keep-alive","set-cookie":["csrfToken=VI_bUHkjeywhyc0I76PFdb9G; path=/"],"x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"1"},"res":{"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx/1.13.7","date":"Tue, 24 Dec 2019 08:50:20 GMT","content-type":"text/plain; charset=utf-8","content-length":"11","connection":"keep-alive","set-cookie":["csrfToken=VI_bUHkjeywhyc0I76PFdb9G; path=/"],"x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"1"},"size":11,"aborted":false,"rt":31,"keepAliveSocket":false,"data":{"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]},"requestUrls":["http://112.126.102.214:8082/"],"timing":null,"remoteAddress":"112.126.102.214","remotePort":8082,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-12-24 16:50:21,150 INFO 2180 [-/::1/-/31ms GET /] some request data: {"data":{"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]},"status":200,"headers":{"server":"nginx/1.13.7","date":"Tue, 24 Dec 2019 08:50:21 GMT","content-type":"text/plain; charset=utf-8","content-length":"11","connection":"keep-alive","set-cookie":["csrfToken=HrPn4-V_E8aa44l8lNedpOJw; path=/"],"x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"1"},"res":{"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx/1.13.7","date":"Tue, 24 Dec 2019 08:50:21 GMT","content-type":"text/plain; charset=utf-8","content-length":"11","connection":"keep-alive","set-cookie":["csrfToken=HrPn4-V_E8aa44l8lNedpOJw; path=/"],"x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-readtime":"1"},"size":11,"aborted":false,"rt":31,"keepAliveSocket":true,"data":{"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]},"requestUrls":["http://112.126.102.214:8082/"],"timing":null,"remoteAddress":"112.126.102.214","remotePort":8082,"socketHandledRequests":2,"socketHandledResponses":2}}
+2019-12-24 16:51:14,564 INFO 6288 [-/::1/-/92ms GET /] some request data: undefined
+2019-12-24 16:51:28,871 INFO 6288 [-/::1/-/30ms GET /] some request data: undefined
+2019-12-24 16:51:48,766 INFO 8340 [-/::1/-/61ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:52:39,461 INFO 3980 [-/::1/-/56ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:55:18,040 INFO 2372 [-/::1/-/60ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:55:54,091 INFO 1932 [-/::1/-/62ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:55:54,093 INFO 1932 [-/::1/-/63ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:56:58,171 INFO 21384 [-/::1/-/65ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:56:58,173 INFO 21384 [-/::1/-/67ms GET /] some request data: "json"
+2019-12-24 16:58:05,588 INFO 11936 [-/::1/-/55ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:58:05,590 INFO 11936 [-/::1/-/56ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:58:36,856 INFO 11936 [-/::1/-/83ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 16:58:36,857 INFO 11936 [-/::1/-/84ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:00:04,410 INFO 16432 [-/127.0.0.1/-/63ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:00:04,415 INFO 16432 [-/127.0.0.1/-/69ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:02:35,502 INFO 4860 [-/127.0.0.1/-/59ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:04:21,874 INFO 4860 [-/127.0.0.1/-/35ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:05:03,135 INFO 21448 [-/127.0.0.1/-/56ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:14:27,330 ERROR 19412 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: ctx is not defined
+    at NewsService.index (E:\tryproject\eggtry\app\service\mycurl.js:5:9)
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:47)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+
+pid: 19412
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 17:15:34,652 INFO 10848 [-/127.0.0.1/-/11ms GET /] request data: {}
+2019-12-24 17:15:34,706 INFO 10848 [-/127.0.0.1/-/65ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:19:22,155 INFO 10848 [-/127.0.0.1/-/1ms GET /] request data: {}
+2019-12-24 17:19:22,183 INFO 10848 [-/127.0.0.1/-/30ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:30:45,041 INFO 18944 [-/127.0.0.1/-/13ms GET /] request data: {}
+2019-12-24 17:30:45,091 INFO 18944 [-/127.0.0.1/-/63ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 17:54:21,299 WARN 18944 [-/::1/-/34ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 17:54:21,304 WARN 18944 [-/::1/-/38ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 18944
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 17:55:35,739 WARN 18944 [-/::1/-/2ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 17:55:35,740 WARN 18944 [-/::1/-/3ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 18944
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 17:56:11,368 WARN 18944 [-/::1/-/1ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 17:56:11,369 WARN 18944 [-/::1/-/2ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 18944
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:05:36,549 WARN 11724 [-/::1/-/35ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:05:36,554 WARN 11724 [-/::1/-/40ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","vary":"Origin"}
+pid: 11724
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:05:42,892 WARN 11724 [-/::1/-/2ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:05:42,894 WARN 11724 [-/::1/-/4ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"http://localhost:8080","vary":"Origin"}
+pid: 11724
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:10:58,636 WARN 21136 [-/::1/-/33ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:10:58,643 WARN 21136 [-/::1/-/40ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21136
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:14:13,435 WARN 8548 [-/::1/-/35ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:14:13,443 WARN 8548 [-/::1/-/44ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8548
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:15:11,338 WARN 11880 [-/::1/-/34ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:15:11,344 WARN 11880 [-/::1/-/40ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11880
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:18:48,772 WARN 9872 [-/::1/-/36ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:18:48,778 WARN 9872 [-/::1/-/43ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9872
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:18:49,559 WARN 9872 [-/::1/-/3ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:18:49,561 WARN 9872 [-/::1/-/4ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9872
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:19:12,222 WARN 1196 [-/::1/-/35ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:19:12,228 WARN 1196 [-/::1/-/42ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1196
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:19:14,628 WARN 1196 [-/::1/-/2ms POST /] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-24 18:19:14,631 WARN 1196 [-/::1/-/4ms POST /] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\tryproject\eggtry\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (E:\tryproject\eggtry\node_modules\koa-override\index.js:38:12)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1196
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 18:22:07,544 INFO 9312 [-/::1/-/4ms GET /] request data: {}
+2019-12-24 18:22:07,593 INFO 9312 [-/::1/-/53ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 18:23:20,236 INFO 9312 [-/::1/-/1ms GET /] request data: {}
+2019-12-24 18:23:20,265 INFO 9312 [-/::1/-/30ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}
+2019-12-24 18:24:47,478 INFO 9312 [-/::1/-/1ms GET /] request data: {}
+2019-12-24 18:24:47,513 INFO 9312 [-/::1/-/37ms GET /] some request data: {"type":"Buffer","data":[72,101,108,108,111,32,119,111,114,108,100]}

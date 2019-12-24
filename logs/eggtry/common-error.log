@@ -1,0 +1,120 @@
+2019-12-24 15:52:01,440 ERROR 6116 [-/::1/-/15ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\tryproject\eggtry\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\tryproject\eggtry\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (E:\tryproject\eggtry\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (E:\tryproject\eggtry\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\tryproject\eggtry\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\tryproject\eggtry\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 6116
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:23:51,035 ERROR 10524 [-/::1/-/12ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:25:56,982 ERROR 10524 [-/::1/-/1ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:25:58,952 ERROR 10524 [-/::1/-/1ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:25:59,836 ERROR 10524 [-/::1/-/1ms GET /] nodejs.TypeError: console is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:9)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 10524
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:44:24,369 ERROR 20944 [-/127.0.0.1/-/19ms GET /] nodejs.TypeError: ctx.service.mycurl is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:42)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 20944
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 16:45:19,660 ERROR 18772 [-/::1/-/14ms GET /] nodejs.TypeError: ctx.service.mycurl is not a function
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:42)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\eggtry\node_modules\koa-compose\index.js:36:12
+
+pid: 18772
+hostname: DESKTOP-KD3VG42
+
+2019-12-24 17:14:27,328 ERROR 19412 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: ctx is not defined
+    at NewsService.index (E:\tryproject\eggtry\app\service\mycurl.js:5:9)
+    at HomeController.index (E:\tryproject\eggtry\app\controller\home.js:6:47)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\eggtry\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\eggtry\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\eggtry\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\eggtry\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\eggtry\node_modules\koa-compose\index.js:44:32)
+
+pid: 19412
+hostname: DESKTOP-KD3VG42
+

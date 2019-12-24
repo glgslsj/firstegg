@@ -1,0 +1,19 @@
+{
+  "name": "eggtry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev --port 13133"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-cors": "^2.2.3"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.0"
+  }
+}
