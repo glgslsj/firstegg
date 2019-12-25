@@ -88,7 +88,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "D:\\play\\firstegg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "D:\\play\\firstegg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
@@ -119,6 +119,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -133,13 +140,12 @@
       "dir": "D:\\play\\firstegg\\app\\public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "D:\\play\\firstegg\\app\\view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -149,7 +155,20 @@
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
     "validate": {},
-    "env": "prod",
+    "email": {
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "smtp.qq.com",
+        "secureConnection": true,
+        "port": 465,
+        "auth": {
+          "user": "1109833087",
+          "pass": "<String len: 8>"
+        }
+      }
+    },
+    "env": "local",
     "name": "eggtry",
     "keys": "<String len: 11>",
     "cookies": {},
@@ -175,6 +194,7 @@
       "dependencies": {
         "egg": "^2.26.0",
         "egg-cors": "^2.2.3",
+        "egg-email": "^1.0.2",
         "egg-scripts": "^2.12.0",
         "egg-validate": "^2.0.2"
       },
@@ -216,19 +236,21 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "C:\\Users\\芒果240\\logs\\eggtry",
+      "dir": "D:\\play\\firstegg\\logs\\eggtry",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "eggtry-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -378,6 +400,21 @@
       "path": "D:\\play\\firstegg\\node_modules\\egg-multipart",
       "version": "2.10.1"
     },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-development",
+      "version": "2.4.3"
+    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -434,6 +471,17 @@
       "from": "D:\\play\\firstegg\\config\\plugin.js",
       "path": "D:\\play\\firstegg\\node_modules\\egg-validate",
       "version": "2.0.2"
+    },
+    "email": {
+      "enable": true,
+      "package": "egg-email",
+      "name": "email",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\play\\firstegg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-email",
+      "version": "1.0.2"
     }
   }
 }

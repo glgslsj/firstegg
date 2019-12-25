@@ -482,3 +482,407 @@ hostname: DESKTOP-3VTC7OJ
 2019-12-25 11:30:40,117 INFO 14948 [-/::1/-/13ms POST /api/curl] post
 2019-12-25 11:30:40,118 INFO 14948 [-/::1/-/14ms POST /api/curl] request data: {"url":"https://sm.ms/api/v2/profile","method":"post","data":{},"headers":{"Content-Type":"multipart/form-data","Authorization":"RvrP6kFAv8G3zgA0A4869nUL7QHpymL3"}}
 2019-12-25 11:30:40,735 INFO 14948 [-/::1/-/630ms POST /api/curl] request data: {"data":{"success":true,"code":"success","message":"Get user profile success.","data":{"username":"glgslsj","email":"1109833087@qq.com","role":"user","group_expire":"0000-00-00","email_verified":0,"disk_usage":"0.00 ","disk_limit":"5.00 GB","disk_usage_raw":0,"disk_limit_raw":5368709120},"RequestId":"C9EFBCED-C67A-4EF8-B02A-B8258A3B4FDA"},"status":200,"headers":{"server":"nginx","date":"Wed, 25 Dec 2019 03:30:40 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","set-cookie":["PHPSESSID=sm8rmm9evrtg4adqvfc2uvp1jq; path=/","cid=rBWawl4C1+CsdVkoWOseAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=sm.ms; path=/"],"expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate","pragma":"no-cache","strict-transport-security":"max-age=63072000; includeSubDomains; preload","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","x-custom-job":"If you see this, please contact hello@cat.net for a job","access-control-allow-origin":"*","access-control-allow-methods":"OPTIONS, HEAD, GET, POST","allow":"GET, POST, HEAD"},"res":{"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"nginx","date":"Wed, 25 Dec 2019 03:30:40 GMT","content-type":"text/html; charset=UTF-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding","set-cookie":["PHPSESSID=sm8rmm9evrtg4adqvfc2uvp1jq; path=/","cid=rBWawl4C1+CsdVkoWOseAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=sm.ms; path=/"],"expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate","pragma":"no-cache","strict-transport-security":"max-age=63072000; includeSubDomains; preload","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","x-custom-job":"If you see this, please contact hello@cat.net for a job","access-control-allow-origin":"*","access-control-allow-methods":"OPTIONS, HEAD, GET, POST","allow":"GET, POST, HEAD"},"size":332,"aborted":false,"rt":612,"keepAliveSocket":false,"data":{"success":true,"code":"success","message":"Get user profile success.","data":{"username":"glgslsj","email":"1109833087@qq.com","role":"user","group_expire":"0000-00-00","email_verified":0,"disk_usage":"0.00 ","disk_limit":"5.00 GB","disk_usage_raw":0,"disk_limit_raw":5368709120},"RequestId":"C9EFBCED-C67A-4EF8-B02A-B8258A3B4FDA"},"requestUrls":["https://sm.ms/api/v2/profile"],"timing":null,"remoteAddress":"47.88.229.110","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-12-25 16:36:33,120 INFO 12684 [-/::1/-/311ms GET /] error
+2019-12-25 16:36:50,721 INFO 12684 [-/::1/-/349ms GET /] error
+2019-12-25 16:36:54,791 INFO 12684 [-/::1/-/244ms GET /] error
+2019-12-25 16:36:55,998 INFO 12684 [-/::1/-/303ms GET /] error
+2019-12-25 16:37:23,602 INFO 16296 [-/::1/-/281ms GET /] nodejs.EAUTHError: Invalid login: 535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+    at SMTPConnection._formatError (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:605:19)
+    at SMTPConnection._actionAUTHComplete (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:1340:34)
+    at SMTPConnection._responseActions.push.str (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:378:26)
+    at SMTPConnection._processResponse (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:764:20)
+    at SMTPConnection._onData (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:570:14)
+    at TLSSocket._socket.on.chunk (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:522:47)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+code: "EAUTH"
+response: "535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256"
+responseCode: 535
+command: "AUTH PLAIN"
+name: "EAUTHError"
+pid: 16296
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 16:38:37,244 INFO 15536 [-/::1/-/367ms GET /] nodejs.EAUTHError: Invalid login: 535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+    at SMTPConnection._formatError (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:605:19)
+    at SMTPConnection._actionAUTHComplete (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:1340:34)
+    at SMTPConnection._responseActions.push.str (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:378:26)
+    at SMTPConnection._processResponse (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:764:20)
+    at SMTPConnection._onData (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:570:14)
+    at TLSSocket._socket.on.chunk (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:522:47)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+code: "EAUTH"
+response: "535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256"
+responseCode: 535
+command: "AUTH PLAIN"
+name: "EAUTHError"
+pid: 15536
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 16:38:41,620 INFO 15536 [-/::1/-/246ms GET /] nodejs.EAUTHError: Invalid login: 535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+    at SMTPConnection._formatError (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:605:19)
+    at SMTPConnection._actionAUTHComplete (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:1340:34)
+    at SMTPConnection._responseActions.push.str (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:378:26)
+    at SMTPConnection._processResponse (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:764:20)
+    at SMTPConnection._onData (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:570:14)
+    at TLSSocket._socket.on.chunk (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:522:47)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+code: "EAUTH"
+response: "535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256"
+responseCode: 535
+command: "AUTH PLAIN"
+name: "EAUTHError"
+pid: 15536
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 16:39:14,435 INFO 16204 [-/::1/-/343ms GET /] nodejs.EAUTHError: Invalid login: 535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+    at SMTPConnection._formatError (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:605:19)
+    at SMTPConnection._actionAUTHComplete (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:1340:34)
+    at SMTPConnection._responseActions.push.str (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:378:26)
+    at SMTPConnection._processResponse (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:764:20)
+    at SMTPConnection._onData (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:570:14)
+    at TLSSocket._socket.on.chunk (D:\play\firstegg\node_modules\nodemailer\lib\smtp-connection\index.js:522:47)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+code: "EAUTH"
+response: "535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256"
+responseCode: 535
+command: "AUTH PLAIN"
+name: "EAUTHError"
+pid: 16204
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:31:32,955 INFO 13048 [-/::1/-/7ms GET /api/more] hi
+2019-12-25 17:31:32,978 INFO 13048 [-/::1/-/29ms GET /api/more] nodejs.Error: Command failed: cat *.js missing_file | wc -l
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 255
+signal: null
+cmd: "cat *.js missing_file | wc -l"
+pid: 13048
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:33:09,581 INFO 10764 [-/::1/-/5ms GET /api/more] hi
+2019-12-25 17:33:09,612 INFO 10764 [-/::1/-/35ms GET /api/more] nodejs.Error: Command failed: ls
+'ls' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'ls' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "ls"
+pid: 10764
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:37:05,923 INFO 6484 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:37:05,940 INFO 6484 [-/::1/-/22ms GET /api/more] nodejs.Error: Command failed: cat D:\play\firstegg\app\service/haha.txt
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "cat D:\\play\\firstegg\\app\\service/haha.txt"
+pid: 6484
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:38:11,186 INFO 9720 [-/::1/-/4ms GET /api/more] hi
+2019-12-25 17:38:11,211 INFO 9720 [-/::1/-/30ms GET /api/more] nodejs.Error: Command failed: cat D:\play\firstegg\app\service/*.js
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "cat D:\\play\\firstegg\\app\\service/*.js"
+pid: 9720
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:38:39,932 INFO 12524 [-/::1/-/7ms GET /api/more] hi
+2019-12-25 17:38:39,959 INFO 12524 [-/::1/-/33ms GET /api/more] nodejs.Error: Command failed: cat *.js
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "cat *.js"
+pid: 12524
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:39:16,712 INFO 16316 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:39:16,731 INFO 16316 [-/::1/-/24ms GET /api/more] nodejs.Error: Command failed: cat *.js missing_file | wc -l
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 255
+signal: null
+cmd: "cat *.js missing_file | wc -l"
+pid: 16316
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:41:58,451 INFO 7100 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:41:58,471 INFO 7100 [-/::1/-/25ms GET /api/more] nodejs.Error: Command failed: cat *.txt
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'cat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "cat *.txt"
+pid: 7100
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:47:44,801 INFO 16304 [-/::1/-/5ms GET /api/more] hi
+2019-12-25 17:47:44,820 INFO 16304 [-/::1/-/23ms GET /api/more] nodejs.Error: Command failed: my.bat
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.bat"
+pid: 16304
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:48:42,647 INFO 5544 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:48:42,673 INFO 5544 [-/::1/-/31ms GET /api/more] nodejs.Error: Command failed: my.bat
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.bat"
+pid: 5544
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:50:08,240 INFO 15828 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:50:08,261 INFO 15828 [-/::1/-/28ms GET /api/more] nodejs.Error: Command failed: my.bat
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.bat"
+pid: 15828
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:53:10,817 INFO 15872 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:53:10,836 INFO 15872 [-/::1/-/25ms GET /api/more] nodejs.Error: Command failed: my.bat
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.bat' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.bat"
+pid: 15872
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:53:23,998 INFO 12588 [-/::1/-/13ms GET /api/more] hi
+2019-12-25 17:53:24,030 INFO 12588 [-/::1/-/45ms GET /api/more] nodejs.Error: Command failed: my.cmd
+'my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.cmd"
+pid: 12588
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:54:51,447 INFO 9036 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:54:51,462 INFO 9036 [-/::1/-/21ms GET /api/more] stdout: 1
+
+2019-12-25 17:54:51,462 INFO 9036 [-/::1/-/21ms GET /api/more] stderr: 
+2019-12-25 17:57:41,260 INFO 15712 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:57:41,277 INFO 15712 [-/::1/-/24ms GET /api/more] stdout: 1
+
+2019-12-25 17:57:41,278 INFO 15712 [-/::1/-/25ms GET /api/more] stderr: 
+2019-12-25 17:57:55,798 INFO 15712 [-/::1/-/1ms GET /api/more] hi
+2019-12-25 17:57:55,819 INFO 15712 [-/::1/-/22ms GET /api/more] stdout: 1
+
+2019-12-25 17:57:55,823 INFO 15712 [-/::1/-/26ms GET /api/more] stderr: 
+2019-12-25 17:57:57,362 INFO 15712 [-/::1/-/0ms GET /api/more] hi
+2019-12-25 17:57:57,375 INFO 15712 [-/::1/-/13ms GET /api/more] stdout: 1
+
+2019-12-25 17:57:57,375 INFO 15712 [-/::1/-/13ms GET /api/more] stderr: 
+2019-12-25 17:58:09,531 INFO 15916 [-/::1/-/11ms GET /api/more] hi
+2019-12-25 17:58:09,563 INFO 15916 [-/::1/-/42ms GET /api/more] nodejs.Error: Command failed: my.cmd
+'my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.cmd"
+pid: 15916
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:58:43,426 INFO 5384 [-/::1/-/7ms GET /api/more] hi
+2019-12-25 17:58:43,443 INFO 5384 [-/::1/-/23ms GET /api/more] nodejs.Error: Command failed: /my.cmd
+'/my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'/my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "/my.cmd"
+pid: 5384
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 17:59:02,955 INFO 1436 [-/::1/-/6ms GET /api/more] hi
+2019-12-25 17:59:02,989 INFO 1436 [-/::1/-/41ms GET /api/more] nodejs.Error: Command failed: ./my.cmd
+'.' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'.' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "./my.cmd"
+pid: 1436
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 18:03:19,012 INFO 9460 [-/::1/-/1ms GET /api/more] hi
+2019-12-25 18:03:19,031 INFO 9460 [-/::1/-/20ms GET /api/more] stdout: gagaga
+
+2019-12-25 18:03:19,031 INFO 9460 [-/::1/-/20ms GET /api/more] stderr: 
+2019-12-25 18:03:33,381 INFO 9460 [-/::1/-/0ms GET /api/more] hi
+2019-12-25 18:03:33,398 INFO 9460 [-/::1/-/16ms GET /api/more] nodejs.Error: Command failed: my.cmd
+'my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'my.cmd' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "my.cmd"
+pid: 9460
+hostname: DESKTOP-3VTC7OJ
+

@@ -7,5 +7,9 @@ module.exports = {
     validate : {
         enable: true,
         package: 'egg-validate',
+    },
+    email : {
+        enable: true,
+        package: 'egg-email',
     }
 }

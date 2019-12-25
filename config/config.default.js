@@ -15,4 +15,15 @@ exports.security = {
         refererWhiteList: ['http://localhost:8080'],       // referer white list
     }
 };
+exports.email = {
+    client: {
+        host: 'smtp.qq.com',
+        secureConnection: true,
+        port: 465,
+        auth: {
+            user: '1109833087',
+            pass: 'lsj19891'
+        }
+    }
+}
 

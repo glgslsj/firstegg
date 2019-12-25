@@ -160,3 +160,12 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 9776
 hostname: DESKTOP-3VTC7OJ
 
+2019-12-25 16:23:50,632 ERROR 7888 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7888
+hostname: DESKTOP-3VTC7OJ
+
