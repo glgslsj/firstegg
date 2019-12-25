@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "egg-bin dev --port 13133"
+    "dev": "egg-bin dev --port 8808"
   },
   "author": "",
   "license": "ISC",
