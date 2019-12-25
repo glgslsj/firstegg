@@ -118,3 +118,45 @@ hostname: DESKTOP-KD3VG42
 pid: 19412
 hostname: DESKTOP-KD3VG42
 
+2019-12-25 10:57:38,839 ERROR 3200 [-/::1/-/785ms POST /api/curl] nodejs.ReferenceError: data is not defined
+    at curlController.index (D:\play\firstegg\app\controller\curl.js:19:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3200
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 11:07:28,231 ERROR 6204 [-/::1/-/604ms POST /api/curl] nodejs.ReferenceError: data is not defined
+    at curlController.index (D:\play\firstegg\app\controller\curl.js:19:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6204
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 11:21:08,782 ERROR 11688 [-/::1/-/469ms POST /api/curl] nodejs.ReferenceError: data is not defined
+    at curlController.index (D:\play\firstegg\app\controller\curl.js:19:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11688
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 11:22:23,603 ERROR 11688 [-/::1/-/483ms POST /api/curl] nodejs.ReferenceError: data is not defined
+    at curlController.index (D:\play\firstegg\app\controller\curl.js:19:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11688
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 11:25:12,636 ERROR 1200 [-/::1/-/631ms POST /api/curl] nodejs.ReferenceError: data is not defined
+    at curlController.index (D:\play\firstegg\app\controller\curl.js:19:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1200
+hostname: DESKTOP-3VTC7OJ
+
+2019-12-25 11:26:46,129 ERROR 9776 [-/::1/-/612ms POST /api/curl] nodejs.ReferenceError: data is not defined
+    at curlController.index (D:\play\firstegg\app\controller\curl.js:19:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9776
+hostname: DESKTOP-3VTC7OJ
+
