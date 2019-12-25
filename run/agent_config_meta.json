@@ -25,7 +25,7 @@
       "value": "D:\\play\\firstegg\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\play\\firstegg\\node_modules\\egg-security\\config\\config.local.js",
+      "enable": "D:\\play\\firstegg\\node_modules\\egg-security\\config\\config.default.js",
       "maxAge": "D:\\play\\firstegg\\node_modules\\egg-security\\config\\config.default.js",
       "includeSubdomains": "D:\\play\\firstegg\\node_modules\\egg-security\\config\\config.default.js"
     },
@@ -86,7 +86,7 @@
     "cookieMaxAge": "D:\\play\\firstegg\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\play\\firstegg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\play\\firstegg\\node_modules\\egg-watcher\\config\\config.default.js",
     "eventSources": {
       "default": "D:\\play\\firstegg\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "D:\\play\\firstegg\\node_modules\\egg-watcher\\config\\config.default.js"
@@ -117,13 +117,6 @@
       "cron": "D:\\play\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
-  "development": {
-    "watchDirs": "D:\\play\\firstegg\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\play\\firstegg\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\play\\firstegg\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\play\\firstegg\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\play\\firstegg\\node_modules\\egg-development\\config\\config.default.js"
-  },
   "logrotator": {
     "filesRotateByHour": "D:\\play\\firstegg\\node_modules\\egg-logrotator\\config\\config.default.js",
     "hourDelimiter": "D:\\play\\firstegg\\node_modules\\egg-logrotator\\config\\config.default.js",
@@ -138,12 +131,13 @@
     "dir": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.default.js",
     "dynamic": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.default.js",
     "preload": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.default.js"
+    "buffer": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.prod.js",
+    "maxFiles": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxAge": "D:\\play\\firstegg\\node_modules\\egg-static\\config\\config.prod.js"
   },
   "view": {
     "root": "D:\\play\\firstegg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\play\\firstegg\\node_modules\\egg-view\\config\\config.local.js",
+    "cache": "D:\\play\\firstegg\\node_modules\\egg-view\\config\\config.default.js",
     "defaultExtension": "D:\\play\\firstegg\\node_modules\\egg-view\\config\\config.default.js",
     "defaultViewEngine": "D:\\play\\firstegg\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": "D:\\play\\firstegg\\node_modules\\egg-view\\config\\config.default.js"
@@ -165,13 +159,16 @@
     "main": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
       "test": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
-      "dev": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js"
+      "dev": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "start": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js"
     },
     "author": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "license": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
@@ -224,9 +221,7 @@
     "coreLogName": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "agentLogName": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "errorLogName": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.local.js"
-    },
+    "coreLogger": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "allowDebugAtProd": "D:\\play\\firstegg\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
