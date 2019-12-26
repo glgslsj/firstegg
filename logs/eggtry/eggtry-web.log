@@ -886,3 +886,84 @@ cmd: "my.cmd"
 pid: 9460
 hostname: DESKTOP-3VTC7OJ
 
+2019-12-26 09:59:32,416 INFO 18676 [-/::1/-/45ms POST /api/more] { shell: 'my.cmd' }
+2019-12-26 09:59:32,505 INFO 18676 [-/::1/-/135ms POST /api/more] nodejs.Error: Command failed: gitpull.sh
+'gitpull.sh' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+'gitpull.sh' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+
+    at ChildProcess.exithandler (child_process.js:294:12)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+killed: false
+code: 1
+signal: null
+cmd: "gitpull.sh"
+pid: 18676
+hostname: DESKTOP-KD3VG42
+
+2019-12-26 10:01:21,748 INFO 1708 [-/::1/-/28ms POST /api/more] { shell: 'my.cmd' }
+2019-12-26 10:01:21,766 ERROR 1708 [-/::1/-/45ms POST /api/more] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "file" argument must be of type string. Received type object
+    at validateString (internal/validators.js:125:11)
+    at normalizeSpawnArguments (child_process.js:411:3)
+    at spawn (child_process.js:545:16)
+    at Object.execFile (child_process.js:221:15)
+    at exec (child_process.js:152:18)
+    at NewsService.index (E:\tryproject\firstegg\app\service\exec.js:8:13)
+    at MoreController.index (E:\tryproject\firstegg\app\controller\more.js:7:45)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1708
+hostname: DESKTOP-KD3VG42
+
+2019-12-26 10:02:32,780 INFO 2904 [-/::1/-/27ms POST /api/more] { shell: 'my.cmd' }
+2019-12-26 10:02:33,006 INFO 2904 [-/::1/-/256ms POST /api/more] stdout: gagaga
+
+2019-12-26 10:02:33,007 INFO 2904 [-/::1/-/257ms POST /api/more] stderr: 
+2019-12-26 10:07:51,271 INFO 2904 [-/::1/-/2ms POST /api/more] { shell: 'e:\\my.cmd' }
+2019-12-26 10:07:51,399 INFO 2904 [-/::1/-/130ms POST /api/more] stdout: 
+E:\tryproject\firstegg>echo jjj 
+jjj
+
+2019-12-26 10:07:51,399 INFO 2904 [-/::1/-/130ms POST /api/more] stderr: 
+2019-12-26 10:10:04,087 INFO 2904 [-/::1/-/1ms POST /api/more] { shell: 'e:\\my.cmd' }
+2019-12-26 10:10:04,227 INFO 2904 [-/::1/-/141ms POST /api/more] stdout: jjj
+
+2019-12-26 10:10:04,228 INFO 2904 [-/::1/-/142ms POST /api/more] stderr: 
+2019-12-26 10:12:10,266 INFO 2904 [-/::1/-/1ms GET /api/more] {}
+2019-12-26 10:12:10,274 ERROR 2904 [-/::1/-/5ms GET /api/more] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "file" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at normalizeSpawnArguments (child_process.js:411:3)
+    at spawn (child_process.js:545:16)
+    at Object.execFile (child_process.js:221:15)
+    at exec (child_process.js:152:18)
+    at NewsService.index (E:\tryproject\firstegg\app\service\exec.js:8:13)
+    at MoreController.index (E:\tryproject\firstegg\app\controller\more.js:7:45)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 2904
+hostname: DESKTOP-KD3VG42
+
+2019-12-26 10:13:48,772 INFO 10676 [-/::1/-/10ms GET /api/more] {}
+2019-12-26 10:13:48,781 ERROR 10676 [-/::1/-/17ms GET /api/more] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "file" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at normalizeSpawnArguments (child_process.js:411:3)
+    at spawn (child_process.js:545:16)
+    at Object.execFile (child_process.js:221:15)
+    at exec (child_process.js:152:18)
+    at NewsService.index (E:\tryproject\firstegg\app\service\exec.js:8:13)
+    at MoreController.index (E:\tryproject\firstegg\app\controller\more.js:7:45)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10676
+hostname: DESKTOP-KD3VG42
+

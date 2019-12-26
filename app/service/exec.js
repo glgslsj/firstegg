@@ -3,7 +3,9 @@ const {exec} = require('child_process');
 
 class NewsService extends Service {
     async index(params) {
-        exec('gitpull.sh', (error, stdout, stderr) => {
+        this.ctx.logger.info(params);
+        if (params.hasOwnProperty('shell')) {
+            exec(params.shell, (error, stdout, stderr) => {
                 if (error) {
                     this.ctx.logger.info(error);
                     return 'error';
@@ -12,6 +14,7 @@ class NewsService extends Service {
                 this.ctx.logger.info(`stderr: ${stderr}`);
                 return 'done'
             });
+        }else return 'error'
     }
 }
 module.exports = NewsService;
