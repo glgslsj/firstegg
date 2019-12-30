@@ -30,9 +30,7 @@ exports.email = {
 
 exports.bodyParser = {
     jsonLimit: '100mb',
-    formLimit: '100mb',
-    multipart: true,
-    enableTypes: ['json', 'form', 'text'],
+    formLimit: '100mb'
 };
 exports.multipart = { mode: "file", fileSize: "600mb" };
 
