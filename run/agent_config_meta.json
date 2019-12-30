@@ -71,6 +71,38 @@
     "app": "E:\\tryproject\\firstegg\\node_modules\\egg-email\\config\\config.default.js",
     "agent": "E:\\tryproject\\firstegg\\node_modules\\egg-email\\config\\config.default.js"
   },
+  "bodyParser": {
+    "jsonLimit": "E:\\tryproject\\firstegg\\config\\config.default.js",
+    "formLimit": "E:\\tryproject\\firstegg\\config\\config.default.js",
+    "multipart": "E:\\tryproject\\firstegg\\config\\config.default.js",
+    "enableTypes": "E:\\tryproject\\firstegg\\config\\config.default.js",
+    "enable": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\tryproject\\firstegg\\config\\config.default.js",
+    "fileSize": "E:\\tryproject\\firstegg\\config\\config.default.js",
+    "autoFields": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
   "session": {
     "maxAge": "E:\\tryproject\\firstegg\\node_modules\\egg-session\\config\\config.default.js",
     "key": "E:\\tryproject\\firstegg\\node_modules\\egg-session\\config\\config.default.js",
@@ -113,22 +145,6 @@
   },
   "schedule": {
     "directory": "E:\\tryproject\\firstegg\\node_modules\\egg-schedule\\config\\config.default.js"
-  },
-  "multipart": {
-    "mode": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js",
-    "cleanSchedule": {
-      "cron": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart\\config\\config.default.js"
-    }
   },
   "development": {
     "watchDirs": "E:\\tryproject\\firstegg\\node_modules\\egg-development\\config\\config.default.js",
@@ -185,11 +201,16 @@
     "author": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "license": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+      "axios": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "blob": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg-email": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-      "egg-validate": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
+      "egg-validate": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "form-data": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "koa2-formidable": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "mz": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
@@ -213,20 +234,6 @@
   },
   "siteFile": {
     "/favicon.ico": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
-  },
-  "bodyParser": {
-    "enable": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "strict": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-    "queryString": {
-      "arrayLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-      "depth": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
-    },
-    "onerror": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
     "dir": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",

@@ -25,5 +25,14 @@ exports.email = {
             pass: 'lsj19891'
         }
     }
-}
+};
+// exports.middleware = [ 'formidable' ];
+
+exports.bodyParser = {
+    jsonLimit: '100mb',
+    formLimit: '100mb',
+    multipart: true,
+    enableTypes: ['json', 'form', 'text'],
+};
+exports.multipart = { mode: "file", fileSize: "600mb" };
 

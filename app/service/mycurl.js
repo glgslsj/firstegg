@@ -1,25 +1,50 @@
 const Service = require('egg').Service;
+const FormData = require('form-data');
+const fs = require('fs');
 
 class NewsService extends Service {
     async post(params) {
-        this.ctx.logger.info(params,'service');
-        if (params.hasOwnProperty('headers')&&params.headers.hasOwnProperty('Content-Type')&&params.headers['Content-Type']==='multipart/form-data')
-        {
-            this.ctx.logger.info('222')
-            this.ctx.logger.info(params.data.name)
+        var isQuery = false
+        var postdata = {}
+        if (params.query.hasOwnProperty('headers')){
+            isQuery = true
+            postdata = params.content
+            if (params.isfile) {
+                var formdata = new FormData()
+                var filebuffer = fs.createReadStream(params.content)
+                var fileb = fs.readFileSync('./baymax.jpg')
+                formdata.append('smfile',filebuffer)
+                postdata = formdata
+                this.ctx.logger.info(fileb,'fileb')
+            }
         }
-       /* const result = await this.ctx.curl(params.url, {
+        if (isQuery) {
+            const result = await this.ctx.curl(params.query.url, {
+                // 必须指定 method
+                method: 'POST',
+                // 通过 contentType 告诉 HttpClient 以 JSON 格式发送
+                contentType:"multipart/form-data",
+                data: postdata,
+                headers:params.query.hasOwnProperty('headers')?params.query.headers:{contentType: 'json'},
+                // 明确告诉 HttpClient 以 JSON 格式处理返回的响应 body
+                dataType: 'json',
+            }).catch(e=>{
+                this.ctx.logger.info(e);
+            });
+            return result.data
+        }
+        const result = await this.ctx.curl(params.content.url, {
             // 必须指定 method
             method: 'POST',
             // 通过 contentType 告诉 HttpClient 以 JSON 格式发送
-            data: params.hasOwnProperty('data')?params.data:{},
-            headers:params.hasOwnProperty('headers')?params.headers:{contentType: 'json'},
+            data: params.content.hasOwnProperty('data')?params.content.data:postdata,
+            headers:params.content.hasOwnProperty('headers')?params.content.headers:{contentType: 'json'},
             // 明确告诉 HttpClient 以 JSON 格式处理返回的响应 body
             dataType: 'json',
         }).catch(e=>{
             this.ctx.logger.info(e);
-        });*/
-        return "result.data"
+        });
+        return result.data
     }
     async get(params) {
         const result = await this.ctx.curl(params.url, {
