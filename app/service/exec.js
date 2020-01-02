@@ -4,7 +4,7 @@ const {exec} = require('child_process');
 class NewsService extends Service {
     async index(params) {
         this.ctx.logger.info(params);
-            Promise(function (resolve, reject) {
+           return new Promise(function (resolve, reject) {
             if (params.hasOwnProperty('shell')) {
                 exec(params.shell, (error, stdout, stderr) => {
                     if (error) {
@@ -15,7 +15,7 @@ class NewsService extends Service {
                     this.ctx.logger.info(`stderr: ${stderr}`);
                     resolve ('done')
                 });
-            }else return 'error'
+            }else reject('error')
         })
     }
 }
