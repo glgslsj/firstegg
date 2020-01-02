@@ -28,8 +28,8 @@ class speechController extends Controller {
             voice = fs.readFileSync('./testfile/16k_test.pcm');
             voiceBase64 = new Buffer(voice);
         }
-       await client.recognize(voiceBase64, query.format, 16000).then(function(res) {
-            ctx.logger.info('语音识别本地音频文件结果: ' + JSON.stringify(res));
+       await client.recognize(voiceBase64, query.format,8000).then(function(res) {
+            ctx.logger.info('语音识别结果: ' + JSON.stringify(res));
             result = res
         }, function(err) {
             result = err

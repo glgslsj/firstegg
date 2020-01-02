@@ -1,0 +1,25 @@
+2020-01-02 13:55:02,095 ERROR 6640 nodejs.ClusterClientNoResponseError: client no response in 4874284ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\play\firstegg\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6640
+hostname: DESKTOP-3VTC7OJ
+
+2020-01-02 16:55:14,497 ERROR 8848 [-/192.168.1.106/-/20ms POST /api/speech?format=amr] nodejs.TypeError: Cannot read property 'filepath' of undefined
+    at speechController.index (D:\play\firstegg\app\controller\speech.js:23:58)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at D:\play\firstegg\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8848
+hostname: DESKTOP-3VTC7OJ
+

@@ -1,0 +1,213 @@
+2020-01-02 16:48:22,743 INFO 9800 [-/192.168.1.106/-/235ms POST /api/speech] 语音识别本地音频文件结果: {"err_msg":"param format error.","err_no":3300,"sn":"152608834961577954903"}
+2020-01-02 16:49:37,084 INFO 9800 [-/192.168.1.106/-/1073ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"param format invalid.","err_no":3312,"sn":"933502935471577954977"}
+2020-01-02 16:51:38,399 INFO 8848 [-/192.168.1.106/-/663ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"param format invalid.","err_no":3312,"sn":"556304925521577955099"}
+2020-01-02 16:53:11,150 INFO 8848 [-/192.168.1.106/-/172ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"param format invalid.","err_no":3312,"sn":"196412426871577955192"}
+2020-01-02 16:55:14,499 ERROR 8848 [-/192.168.1.106/-/20ms POST /api/speech?format=amr] nodejs.TypeError: Cannot read property 'filepath' of undefined
+    at speechController.index (D:\play\firstegg\app\controller\speech.js:23:58)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at D:\play\firstegg\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8848
+hostname: DESKTOP-3VTC7OJ
+
+2020-01-02 16:56:04,982 INFO 11068 [-/192.168.1.106/-/15ms POST /api/speech?format=amr] file undefined
+2020-01-02 16:56:05,456 INFO 11068 [-/192.168.1.106/-/489ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"json param speech len error.","err_no":3300,"sn":"41655221621577955366"}
+2020-01-02 16:56:44,188 INFO 13604 [-/192.168.1.106/-/18ms POST /api/speech?format=amr] file []
+2020-01-02 16:56:44,731 INFO 13604 [-/192.168.1.106/-/561ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"json param speech len error.","err_no":3300,"sn":"627007180671577955405"}
+2020-01-02 16:59:46,472 WARN 13604 [-/192.168.1.106/-/12ms POST /api/speech?format=amr] nodejs.Error: Invalid filename: 1577955586552.amr
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13604
+hostname: DESKTOP-3VTC7OJ
+
+2020-01-02 17:01:37,215 WARN 3652 [-/192.168.1.106/-/38ms POST /api/speech?format=amr] nodejs.Error: Invalid filename: 1577955586552.amr
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3652
+hostname: DESKTOP-3VTC7OJ
+
+2020-01-02 17:02:35,231 WARN 15780 [-/192.168.1.106/-/30ms POST /api/speech?format=amr] nodejs.Error: Invalid filename: 1577955697323.amr
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15780
+hostname: DESKTOP-3VTC7OJ
+
+2020-01-02 17:04:00,917 WARN 15780 [-/192.168.1.106/-/6ms POST /api/speech?format=amr] nodejs.Error: Invalid filename: 1577955841180.amr
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15780
+hostname: DESKTOP-3VTC7OJ
+
+2020-01-02 17:08:32,260 INFO 4588 [-/192.168.1.106/-/50ms POST /api/speech?format=amr] file {}
+2020-01-02 17:08:32,261 INFO 4588 [-/192.168.1.106/-/51ms POST /api/speech?format=amr] file {}
+2020-01-02 17:08:32,450 INFO 4588 [-/192.168.1.106/-/240ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"json param speech len error.","err_no":3300,"sn":"738905231121577956113"}
+2020-01-02 17:09:11,672 INFO 3504 [-/192.168.1.106/-/22ms POST /api/speech?format=amr] file {}
+2020-01-02 17:09:11,673 INFO 3504 [-/192.168.1.106/-/23ms POST /api/speech?format=amr] file {}
+2020-01-02 17:09:12,452 INFO 3504 [-/192.168.1.106/-/802ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"json param speech len error.","err_no":3300,"sn":"487175541501577956153"}
+2020-01-02 17:10:13,742 INFO 15392 [-/192.168.1.106/-/49ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956151774.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\8428e677-b1ea-4040-a09d-5981bcee7895.amr' }
+2020-01-02 17:10:14,642 INFO 15392 [-/192.168.1.106/-/951ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"param format invalid.","err_no":3312,"sn":"14956474081577956215"}
+2020-01-02 17:11:12,903 INFO 14116 [-/192.168.1.106/-/55ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956213791.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\1a4b5d79-305d-4b30-a038-2e01b7586b8a.amr' }
+2020-01-02 17:11:13,091 INFO 14116 [-/192.168.1.106/-/244ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"param rate invalid.","err_no":3311,"sn":"961922393941577956274"}
+2020-01-02 17:12:11,056 INFO 6520 [-/192.168.1.106/-/65ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956272812.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\a9b145e1-2abd-4d7c-bf5c-26545e586af9.amr' }
+2020-01-02 17:12:11,655 INFO 6520 [-/192.168.1.106/-/666ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777270841805265591","err_msg":"success.","err_no":0,"result":["走你。"],"sn":"650793364941577956332"}
+2020-01-02 17:14:09,776 INFO 6520 [-/192.168.1.106/-/22ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956449717.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\f0bbc783-d003-4450-a447-b992201cf973.amr' }
+2020-01-02 17:14:10,340 INFO 6520 [-/192.168.1.106/-/586ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777271352959225564","err_msg":"success.","err_no":0,"result":["找你。"],"sn":"388529938091577956450"}
+2020-01-02 17:14:17,389 INFO 6520 [-/192.168.1.106/-/11ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956449717.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\847507cd-b535-43b6-b0d8-da3ee1653fe9.amr' }
+2020-01-02 17:14:17,897 INFO 6520 [-/192.168.1.106/-/519ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777271382892140839","err_msg":"success.","err_no":0,"result":["找你。"],"sn":"885355811041577956458"}
+2020-01-02 17:14:25,606 INFO 6520 [-/192.168.1.106/-/19ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956457687.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\be98c21e-02ff-4066-b5b2-fc27d1444c68.amr' }
+2020-01-02 17:14:25,927 INFO 6520 [-/192.168.1.106/-/340ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777271417372176069","err_msg":"success.","err_no":0,"result":["好好好。"],"sn":"16508142181577956466"}
+2020-01-02 17:14:31,225 INFO 6520 [-/192.168.1.106/-/18ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956465898.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\bef95f9f-8435-411e-b9c4-7a91c3d3b91c.amr' }
+2020-01-02 17:14:31,617 INFO 6520 [-/192.168.1.106/-/410ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777271443033650957","err_msg":"success.","err_no":0,"result":["哈哈哈。"],"sn":"410014266721577956472"}
+2020-01-02 17:14:40,984 INFO 6520 [-/192.168.1.106/-/4ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956471464.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\3fb7ee89-235c-4f46-85f2-9cfe401b1d51.amr' }
+2020-01-02 17:14:41,422 INFO 6520 [-/192.168.1.106/-/442ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777271485882082897","err_msg":"success.","err_no":0,"result":["嘻嘻嘻。"],"sn":"50821858431577956482"}
+2020-01-02 17:14:49,439 INFO 6520 [-/192.168.1.106/-/2ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956479918.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\76a60813-2c0c-45ae-aeb2-6dc60f1c8210.amr' }
+2020-01-02 17:14:49,748 INFO 6520 [-/192.168.1.106/-/311ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777271520261122954","err_msg":"success.","err_no":0,"result":["找你。"],"sn":"437646549101577956490"}
+2020-01-02 17:15:37,340 INFO 6520 [-/192.168.1.106/-/18ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956489678.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\17c1f38b-1d37-4117-8b5e-7e6cdac632ac.amr' }
+2020-01-02 17:15:37,790 INFO 6520 [-/192.168.1.106/-/468ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"speech quality error.","err_no":3301,"sn":"49376884121577956538"}
+2020-01-02 17:15:46,374 INFO 6520 [-/192.168.1.106/-/18ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956537490.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\7d785afd-ee8d-4767-9b7c-94363538068c.amr' }
+2020-01-02 17:15:46,808 INFO 6520 [-/192.168.1.106/-/452ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"err_msg":"speech quality error.","err_no":3301,"sn":"951065694521577956547"}
+2020-01-02 17:17:46,602 INFO 6520 [-/192.168.1.106/-/22ms POST /api/speech?format=amr] file { field: 'file',
+  filename: '1577956666649.amr',
+  encoding: '7bit',
+  mime: 'audio/amr',
+  fieldname: 'file',
+  transferEncoding: '7bit',
+  mimeType: 'audio/amr',
+  filepath:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\95b13c9d-460d-4b92-82b2-789d6f65109e.amr' }
+2020-01-02 17:17:47,004 INFO 6520 [-/192.168.1.106/-/423ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777272280672455634","err_msg":"success.","err_no":0,"result":["同年。"],"sn":"948908424241577956667"}
