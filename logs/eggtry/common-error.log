@@ -23,3 +23,33 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 8848
 hostname: DESKTOP-3VTC7OJ
 
+2020-01-06 17:45:24,488 ERROR 34588 nodejs.ClusterClientNoResponseError: client no response in 60944ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\tryproject\firstegg\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 34588
+hostname: DESKTOP-KD3VG42
+
+2020-01-06 17:46:56,476 ERROR 34588 nodejs.ClusterClientNoResponseError: client no response in 71887ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\tryproject\firstegg\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 34588
+hostname: DESKTOP-KD3VG42
+
+2020-01-08 19:19:44,464 ERROR 35028 nodejs.ClusterClientNoResponseError: client no response in 693626ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\tryproject\firstegg\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35028
+hostname: DESKTOP-KD3VG42
+
