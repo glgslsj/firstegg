@@ -7,7 +7,7 @@ class curlController extends Controller {
         var result = {}
         var isfile = false
         var query = ctx.request.query
-        if (ctx.request.files) {
+        if (ctx.request.hasOwnProperty('files')&&ctx.request.files) {
             content = ctx.request.files[0]
             isfile = true
         } else {

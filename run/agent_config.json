@@ -77,7 +77,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\tryproject\\firstegg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\play\\firstegg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -90,8 +90,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\tryproject\\firstegg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\tryproject\\firstegg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\play\\firstegg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\play\\firstegg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -116,7 +116,7 @@
         "amr"
       ],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry",
+      "tmpdir": "C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -139,14 +139,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\tryproject\\firstegg\\app\\public",
+      "dir": "D:\\play\\firstegg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\tryproject\\firstegg\\app\\view",
+      "root": "D:\\play\\firstegg\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -201,16 +201,15 @@
         "egg-scripts": "^2.12.0",
         "egg-validate": "^2.0.2",
         "form-data": "^3.0.0",
-        "formstream": "^1.1.0",
-        "mz": "latest"
+        "formstream": "^1.1.0"
       },
       "devDependencies": {
         "egg-bin": "^4.14.0"
       }
     },
-    "baseDir": "E:\\tryproject\\firstegg",
-    "HOME": "C:\\Users\\11098",
-    "rundir": "E:\\tryproject\\firstegg\\run",
+    "baseDir": "D:\\play\\firstegg",
+    "HOME": "C:\\Users\\芒果240",
+    "rundir": "D:\\play\\firstegg\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -242,7 +241,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "E:\\tryproject\\firstegg\\logs\\eggtry",
+      "dir": "D:\\play\\firstegg\\logs\\eggtry",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -317,8 +316,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-session",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -330,8 +329,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-security",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -343,8 +342,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-jsonp",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -356,8 +355,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-onerror",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -367,8 +366,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-i18n",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -378,8 +377,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-watcher",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -389,8 +388,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-schedule",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -402,8 +401,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-multipart",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-multipart",
       "version": "2.10.1"
     },
     "development": {
@@ -417,8 +416,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-development",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -430,8 +429,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-logrotator",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -441,8 +440,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-static",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -452,8 +451,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-view",
+      "from": "D:\\play\\firstegg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "cors": {
@@ -463,8 +462,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-cors",
+      "from": "D:\\play\\firstegg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-cors",
       "version": "2.2.3"
     },
     "validate": {
@@ -474,8 +473,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-validate",
+      "from": "D:\\play\\firstegg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-validate",
       "version": "2.0.2"
     },
     "email": {
@@ -485,8 +484,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\tryproject\\firstegg\\config\\plugin.js",
-      "path": "E:\\tryproject\\firstegg\\node_modules\\egg-email",
+      "from": "D:\\play\\firstegg\\config\\plugin.js",
+      "path": "D:\\play\\firstegg\\node_modules\\egg-email",
       "version": "1.0.2"
     }
   }

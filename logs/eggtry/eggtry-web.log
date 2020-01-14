@@ -211,3 +211,237 @@ hostname: DESKTOP-3VTC7OJ
   filepath:
    'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\01\\02\\17\\95b13c9d-460d-4b92-82b2-789d6f65109e.amr' }
 2020-01-02 17:17:47,004 INFO 6520 [-/192.168.1.106/-/423ms POST /api/speech?format=amr] 语音识别本地音频文件结果: {"corpus_no":"6777272280672455634","err_msg":"success.","err_no":0,"result":["同年。"],"sn":"948908424241577956667"}
+2020-01-14 10:37:34,442 INFO 2276 [-/::1/-/43ms POST /api/role] { account: 'lsj',
+  ep: 'a0ff51cf7e3ba60166bc816767948ea4d63d477f' }
+2020-01-14 11:07:04,497 INFO 3112 [-/::1/-/51ms POST /api/role] <Buffer 7b 22 70 61 74 68 22 3a 22 24 22 2c 22 65 72 72 6f 72 22 3a 22 72 65 73 6f 75 72 63 65 20 64 6f 65 73 20 6e 6f 74 20 65 78 69 73 74 22 2c 22 63 6f 64 ... >
+2020-01-14 11:11:39,766 INFO 10816 [-/::1/-/72ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: Failed reading: not a valid json value' } ] }
+2020-01-14 11:14:08,457 INFO 12408 [-/::1/-/263ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: Failed reading: not a valid json value' } ] }
+2020-01-14 11:16:09,616 INFO 14892 [-/::1/-/53ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:17:26,788 INFO 14184 [-/::1/-/19ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }","operationName":null}
+2020-01-14 11:17:26,874 INFO 14184 [-/::1/-/104ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:17:52,609 INFO 14184 [-/::1/-/0ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }","operationName":null}
+2020-01-14 11:17:52,640 INFO 14184 [-/::1/-/32ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:17:57,973 INFO 14184 [-/::1/-/1ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }","operationName":null}
+2020-01-14 11:17:58,007 INFO 14184 [-/::1/-/35ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:18:07,898 INFO 9960 [-/::1/-/15ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }"}
+2020-01-14 11:18:08,036 INFO 9960 [-/::1/-/149ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:19:17,604 INFO 13384 [-/::1/-/26ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }"}
+2020-01-14 11:19:17,716 INFO 13384 [-/::1/-/135ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:20:49,004 INFO 10724 [-/::1/-/23ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:20:49,053 INFO 10724 [-/::1/-/73ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:20:50,841 INFO 10724 [-/::1/-/1ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:20:50,859 INFO 10724 [-/::1/-/19ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:20:51,796 INFO 10724 [-/::1/-/0ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:20:51,815 INFO 10724 [-/::1/-/19ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:20:51,986 INFO 10724 [-/::1/-/0ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:20:52,005 INFO 10724 [-/::1/-/19ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:20:52,162 INFO 10724 [-/::1/-/1ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:20:52,182 INFO 10724 [-/::1/-/20ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:22:00,182 INFO 5080 [-/::1/-/24ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:22:00,274 INFO 5080 [-/::1/-/116ms POST /api/role] <Buffer 7b 22 65 72 72 6f 72 73 22 3a 5b 7b 22 65 78 74 65 6e 73 69 6f 6e 73 22 3a 7b 22 70 61 74 68 22 3a 22 24 2e 71 75 65 72 79 22 2c 22 63 6f 64 65 22 3a ... >
+2020-01-14 11:27:37,303 INFO 5080 [-/::1/-/2ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:27:37,341 INFO 5080 [-/::1/-/40ms POST /api/role] <Buffer 7b 22 65 72 72 6f 72 73 22 3a 5b 7b 22 65 78 74 65 6e 73 69 6f 6e 73 22 3a 7b 22 70 61 74 68 22 3a 22 24 2e 71 75 65 72 79 22 2c 22 63 6f 64 65 22 3a ... >
+2020-01-14 11:28:01,675 INFO 15592 [-/::1/-/26ms POST /api/role] { variables: { userName: 'lsj' },
+  query:
+   'query ($userName:String) {\n                            user(where: {userName: {_eq: $userName}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:28:01,713 INFO 15592 [-/::1/-/64ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:29:24,848 INFO 12016 [-/::1/-/15ms POST /api/role] { query:
+   'query () {\n                            user(where: {userName: {_eq: \'lsj\'}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }' }
+2020-01-14 11:29:24,888 INFO 12016 [-/::1/-/55ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: Failed reading: not a valid json value' } ] }
+2020-01-14 11:30:26,412 INFO 12168 [-/::1/-/14ms POST /api/role] {"query":"query () {\n                            user(where: {userName: {_eq: 'lsj'}}) {\n                                role\n                                nickName\n                                userName\n                                password\n                            }"}
+2020-01-14 11:30:26,448 INFO 12168 [-/::1/-/49ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:44,687 INFO 1980 [-/::1/-/28ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:44,723 INFO 1980 [-/::1/-/64ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:46,404 INFO 1980 [-/::1/-/1ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:46,420 INFO 1980 [-/::1/-/17ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:46,577 INFO 1980 [-/::1/-/0ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:46,592 INFO 1980 [-/::1/-/15ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:46,769 INFO 1980 [-/::1/-/0ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:46,785 INFO 1980 [-/::1/-/16ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:46,943 INFO 1980 [-/::1/-/1ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:46,959 INFO 1980 [-/::1/-/17ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:47,114 INFO 1980 [-/::1/-/0ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:47,134 INFO 1980 [-/::1/-/20ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:32:47,257 INFO 1980 [-/::1/-/1ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:32:47,278 INFO 1980 [-/::1/-/22ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:33:36,925 INFO 8384 [-/::1/-/17ms POST /api/role] {"variables":{"userName":"lsj"},"query":"query ($userName: String) {↵  user(where: {userName: {_eq: $userName}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:33:36,970 INFO 8384 [-/::1/-/61ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:34:10,335 INFO 2936 [-/::1/-/23ms POST /api/role] {"query":"query ($userName: String) {↵  user(where: {userName: {_eq: 'lsj'}}) {↵    role↵    __typename↵  }↵}↵"}
+2020-01-14 11:34:10,374 INFO 2936 [-/::1/-/62ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:34:38,087 INFO 11480 [-/::1/-/18ms POST /api/role] { query:
+   'query ($userName: String) {↵  user(where: {userName: {_eq: \'lsj\'}}) {↵    role↵    __typename↵  }↵}↵' }
+2020-01-14 11:34:38,133 INFO 11480 [-/::1/-/65ms POST /api/role] { errors:
+   [ { extensions: [Object], message: 'not a valid graphql query' } ] }
+2020-01-14 11:48:33,267 INFO 11024 [-/::1/-/65ms POST /api/role] { version: 'v1.0.0',
+  is_admin_secret_set: true,
+  is_auth_hook_set: false,
+  is_jwt_set: false,
+  jwt: null }
+2020-01-14 11:54:12,550 INFO 7520 [-/::1/-/71ms POST /api/role] { path: '$',
+  error: 'resource does not exist',
+  code: 'not-found' }
+2020-01-14 11:54:46,277 INFO 6720 [-/::1/-/56ms POST /api/role] { path: '$',
+  error: 'resource does not exist',
+  code: 'not-found' }
+2020-01-14 11:55:37,401 INFO 7952 [-/::1/-/51ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 11:58:27,069 INFO 7256 [-/::1/-/87ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 12:00:23,163 INFO 9844 [-/::1/-/51ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 12:00:23,164 INFO 9844 [-/::1/-/54ms POST /api/role] undefined
+2020-01-14 12:00:46,935 INFO 14360 [-/::1/-/106ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 12:00:46,938 INFO 14360 [-/::1/-/112ms POST /api/role] undefined
+2020-01-14 13:46:58,008 INFO 17012 [-/::1/-/61ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 13:46:58,010 INFO 17012 [-/::1/-/67ms POST /api/role] undefined
+2020-01-14 13:52:13,244 INFO 17012 [-/::1/-/27ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 13:52:13,245 INFO 17012 [-/::1/-/28ms POST /api/role] undefined
+2020-01-14 13:54:13,170 INFO 17012 [-/::1/-/28ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 13:54:13,170 INFO 17012 [-/::1/-/28ms POST /api/role] undefined
+2020-01-14 13:55:30,922 INFO 17012 [-/::1/-/24ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 13:55:30,922 INFO 17012 [-/::1/-/24ms POST /api/role] undefined
+2020-01-14 13:55:47,530 INFO 17012 [-/::1/-/25ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 13:55:47,531 INFO 17012 [-/::1/-/26ms POST /api/role] undefined
+2020-01-14 13:56:03,844 INFO 17012 [-/::1/-/26ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 13:56:03,844 INFO 17012 [-/::1/-/27ms POST /api/role] undefined
+2020-01-14 14:03:00,588 INFO 17012 [-/::1/-/33ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 14:03:00,588 INFO 17012 [-/::1/-/33ms POST /api/role] undefined
+2020-01-14 14:03:42,266 INFO 17012 [-/::1/-/24ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 14:03:42,266 INFO 17012 [-/::1/-/24ms POST /api/role] undefined
+2020-01-14 14:05:02,068 INFO 17012 [-/::1/-/26ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 14:05:02,069 INFO 17012 [-/::1/-/27ms POST /api/role] undefined
+2020-01-14 14:08:39,069 INFO 17012 [-/::1/-/29ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 14:08:39,070 INFO 17012 [-/::1/-/30ms POST /api/role] undefined
+2020-01-14 14:10:00,306 INFO 17012 [-/::1/-/31ms POST /api/role] { errors:
+   [ { extensions: [Object],
+       message: 'Error in $: not enough input' } ] }
+2020-01-14 14:10:00,307 INFO 17012 [-/::1/-/32ms POST /api/role] undefined
+2020-01-14 14:10:30,081 INFO 13656 [-/::1/-/57ms POST /api/role] { data: { user: [ [Object] ] } }
+2020-01-14 14:10:30,082 INFO 13656 [-/::1/-/58ms POST /api/role] undefined
+2020-01-14 14:23:36,360 INFO 11552 [-/::1/-/64ms POST /api/role] { role: 'guest',
+  nickName: null,
+  userName: 'lsj',
+  password: '123' }
+2020-01-14 14:24:17,138 INFO 11552 [-/::1/-/37ms POST /api/role] { role: 'guest',
+  nickName: null,
+  userName: 'lsj',
+  password: 'a0ff51cf7e3ba60166bc816767948ea4d63d477f' }
+2020-01-14 14:24:21,820 INFO 11552 [-/::1/-/32ms POST /api/role] { role: 'guest',
+  nickName: null,
+  userName: 'lsj',
+  password: 'a0ff51cf7e3ba60166bc816767948ea4d63d477f' }
+2020-01-14 14:24:57,832 INFO 10788 [-/::1/-/51ms POST /api/role] { role: 'guest',
+  nickName: null,
+  userName: 'lsj',
+  password: 'a0ff51cf7e3ba60166bc816767948ea4d63d477f' }
+2020-01-14 14:25:53,284 INFO 10788 [-/::1/-/48ms POST /api/role] { role: 'guest',
+  nickName: null,
+  userName: 'lsj',
+  password: 'a0ff51cf7e3ba60166bc816767948ea4d63d477f' }
+2020-01-14 15:00:22,869 INFO 10788 [-/::1/-/42ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:00:52,843 INFO 10788 [-/::1/-/37ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:01:31,120 INFO 10788 [-/::1/-/36ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:01:52,990 INFO 10788 [-/::1/-/38ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:01:54,431 INFO 10788 [-/::1/-/20ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:02:30,956 INFO 10788 [-/::1/-/30ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:03:34,589 INFO 10788 [-/::1/-/30ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:04:12,764 INFO 10788 [-/::1/-/126ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:05:12,613 INFO 10788 [-/::1/-/83ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-01-14 15:05:58,544 INFO 10788 [-/::1/-/57ms POST /api/role] { role: 'admin',
+  nickName: '刘世杰',
+  userName: 'glgslsj',
+  password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
