@@ -25,6 +25,7 @@ class confirmIdController extends Controller {
         let hasuraUrl ='http://112.126.102.214:8080/v1/graphql'
         const userRes = await this.ctx.curl(hasuraUrl, options)
         let user = userRes.data.data.user
+        ctx.logger.info(user)
         if (user.length === 1){
             if (user[0].password === postData.ep) {
                 let passwordOptions = {
@@ -32,18 +33,18 @@ class confirmIdController extends Controller {
                     data: {
                         variables:{userName:postData.account,id:postData.id},
                         query:`query q($userName:String,$id:Int) { 
-            passwordRe(order_by: {created_at: asc}, where: {owner: {_eq: $userName}, id: {_eq: $id}}) {
-            passwordEnciphered
-            id
-            }
-            }` }, // 这里的query后面必须跟一个名字
+                            passwordRe(order_by: {created_at: asc}, where: {owner: {_eq: $userName}, id: {_eq: $id}}) {
+                            passwordEnciphered
+                            id
+                            }
+                            }` }, // 这里的query后面必须跟一个名字
                     headers:{ 'Content-Type': 'application/json', 'x-hasura-admin-secret': '333'},
                     dataType: 'json',
                 }
                 const dontF = await this.ctx.curl(hasuraUrl, passwordOptions)
                 result = {
                     result:true,
-                    message:dontF
+                    message:dontF.data.data
                 }
             }
         }
