@@ -12,6 +12,7 @@ var SECRET_KEY = "PGkpt35HfjqpkAjeZqbNPV11RqlWlPNG";
 var client = new AipSpeechClient(APP_ID, API_KEY, SECRET_KEY);
 
 class speechController extends Controller {
+    // 需要传进来一个format文件类型和录音文件，这里rate设的默认是8000，高质量需要重新设置
     async index() {
         const ctx = this.ctx;
         var voice = ''
@@ -19,6 +20,7 @@ class speechController extends Controller {
         var isfile = false
         var result = {}
         var query = ctx.request.query
+        var rate = query.hasOwnProperty('rate') ? query.rate:8000
         if (ctx.request.files) {
             voice = fs.readFileSync(ctx.request.files[0].filepath);
             voiceBase64 = new Buffer(voice);
@@ -28,7 +30,7 @@ class speechController extends Controller {
             voice = fs.readFileSync('./testfile/16k_test.pcm');
             voiceBase64 = new Buffer(voice);
         }
-       await client.recognize(voiceBase64, query.format,8000).then(function(res) {
+       await client.recognize(voiceBase64, query.format,rate).then(function(res) {
             ctx.logger.info('语音识别结果: ' + JSON.stringify(res));
             result = res
         }, function(err) {

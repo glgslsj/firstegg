@@ -1,7 +1,7 @@
 const Controller = require('egg').Controller;
-const fs = require('fs')
 
 class roleController extends Controller {
+    // 这个接口需要传入一个{account:$username,ep:$password}的数据进行判断是否有这个用户，暂时这样，要改成增加一个时间戳加密判断更好
     async index() {
         const ctx = this.ctx;
         let result = false

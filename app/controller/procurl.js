@@ -42,3 +42,40 @@ class curlController extends Controller {
     }
 }
 module.exports = curlController;
+
+/*addImage: async function () {
+    // 上传图片的方法
+    let input = document.createElement('input')
+    input.type = 'file'
+    input.onchange = async () => {
+        let file = input.files[0]
+        let formdata = new FormData()
+        formdata.append('smfile', file)
+        this.$tkAjax.post('http://localhost:8808/api/curl', formdata, {
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+                // 'Content-Type': 'multipart/form-data'
+            },
+            params: {
+                url: 'https://sm.ms/api/upload',
+                method: 'post',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            }
+        }).then(data => {
+            let resdata = data.data.data
+            if (resdata.success === true) {
+                let storeObject = {
+                    url: resdata.data.url,
+                    delete: resdata.data.delete
+                }
+                // 保存图片的url
+            }
+        })
+            .catch(e => {
+                console.log(e, 'error')
+            })
+    }
+    input.click()
+}*/

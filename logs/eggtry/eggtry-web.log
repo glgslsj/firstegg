@@ -445,6 +445,7 @@ hostname: DESKTOP-3VTC7OJ
   nickName: '刘世杰',
   userName: 'glgslsj',
   password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+<<<<<<< HEAD
 2020-05-14 11:40:08,500 ERROR 4600 [-/::1/-/25ms POST /api/download] nodejs.TypeError: Cannot read property 'dir' of undefined
     at IndexController.download (D:\play\firstegg\app\controller\downloadFile.js:9:62)
     at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
@@ -1300,3 +1301,61 @@ hostname: DESKTOP-3VTC7OJ
    { url: 'http://112.126.102.214:8808',
      method: 'post',
      headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+=======
+2020-01-21 18:20:55,231 INFO 11696 [-/::1/-/69ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:22:22,074 INFO 11696 [-/::1/-/26ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:22:38,727 INFO 11696 [-/::1/-/24ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:22:50,715 INFO 11696 [-/::1/-/25ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:22:57,822 INFO 11696 [-/::1/-/26ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:23:05,649 INFO 11696 [-/::1/-/25ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:23:10,546 INFO 11696 [-/::1/-/26ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:24:08,684 INFO 11696 [-/::1/-/25ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:24:39,598 INFO 16772 [-/::1/-/67ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:24:55,208 INFO 16772 [-/::1/-/28ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:25:27,812 INFO 16772 [-/::1/-/24ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:26:09,015 INFO 16772 [-/::1/-/28ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:26:36,993 INFO 16772 [-/::1/-/26ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+2020-01-21 18:27:13,849 INFO 16772 [-/::1/-/27ms POST /api/confirmId] [ { role: 'admin',
+    nickName: '刘世杰',
+    userName: 'glgslsj',
+    password: '59112213f9cde1b8c58d60896ab656234ecba5cb' } ]
+>>>>>>> 29e84675747a55cd9d0f1b8af7d3af6fa386ea39

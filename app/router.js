@@ -6,6 +6,10 @@ module.exports = app => {
     router.get('/api/more', controller.more.index);//  getmore的接口，暂时没用
     router.post('/api/speech', controller.speech.index); // 语音识别的接口
     router.post('/api/role', controller.role.index); // 身份判别的接口
+<<<<<<< HEAD
     router.post('/api/download', controller.downloadFile.download);// 下载的post接口
     router.get('/api/download', controller.downloadFile.getdownload);// 下载的get接口
+=======
+    router.post('/api/confirmId', controller.confirmId.index); // 本人判断并换密码的接口
+>>>>>>> 29e84675747a55cd9d0f1b8af7d3af6fa386ea39
 };
