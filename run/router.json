@@ -79,7 +79,6 @@
       "POST"
     ],
     "paramNames": [],
-<<<<<<< HEAD
     "path": "/api/download",
     "regexp": "/^\\/api\\/download(?:\\/(?=$))?$/",
     "stack": [
@@ -95,10 +94,18 @@
     "paramNames": [],
     "path": "/api/download",
     "regexp": "/^\\/api\\/download(?:\\/(?=$))?$/",
-=======
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/api/confirmId",
     "regexp": "/^\\/api\\/confirmId(?:\\/(?=$))?$/",
->>>>>>> 29e84675747a55cd9d0f1b8af7d3af6fa386ea39
     "stack": [
       "wrappedController"
     ]
