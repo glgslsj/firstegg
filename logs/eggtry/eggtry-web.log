@@ -445,3 +445,858 @@ hostname: DESKTOP-3VTC7OJ
   nickName: '刘世杰',
   userName: 'glgslsj',
   password: '59112213f9cde1b8c58d60896ab656234ecba5cb' }
+2020-05-14 11:40:08,500 ERROR 4600 [-/::1/-/25ms POST /api/download] nodejs.TypeError: Cannot read property 'dir' of undefined
+    at IndexController.download (D:\play\firstegg\app\controller\downloadFile.js:9:62)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at D:\play\firstegg\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4600
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 11:45:03,881 ERROR 4600 [-/::1/-/1ms POST /api/download] nodejs.TypeError: Cannot read property 'dir' of undefined
+    at IndexController.download (D:\play\firstegg\app\controller\downloadFile.js:9:62)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at D:\play\firstegg\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4600
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 11:45:37,343 ERROR 16240 [-/::1/-/18ms POST /api/download] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\play\firstegg\public\hello.txt'
+ENOENTError: ENOENT: no such file or directory, open 'D:\play\firstegg\public\hello.txt'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "D:\\play\\firstegg\\public\\hello.txt"
+name: "ENOENTError"
+pid: 16240
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 14:45:13,526 INFO 1068 [-/::1/-/29ms POST /api/download] { request:
+   { method: 'POST',
+     url: '/api/download',
+     header:
+      { host: 'localhost:8808',
+        connection: 'keep-alive',
+        'content-length': '9',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/mindMap',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] { vary: 'Origin', 'access-control-allow-origin': '*' } },
+  app:
+   { env: 'local',
+     name: 'eggtry',
+     baseDir: 'D:\\play\\firstegg',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/api/download',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2020-05-14 14:46:53,677 INFO 7992 [-/::1/-/17ms POST /api/download] { request:
+   { method: 'POST',
+     url: '/api/download',
+     header:
+      { host: 'localhost:8808',
+        connection: 'keep-alive',
+        'content-length': '9',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/mindMap',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] { vary: 'Origin', 'access-control-allow-origin': '*' } },
+  app:
+   { env: 'local',
+     name: 'eggtry',
+     baseDir: 'D:\\play\\firstegg',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/api/download',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2020-05-14 14:47:25,168 INFO 7992 [-/::1/-/1ms POST /api/download] { request:
+   { method: 'POST',
+     url: '/api/download',
+     header:
+      { host: 'localhost:8808',
+        connection: 'keep-alive',
+        'content-length': '9',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        origin: 'http://localhost:8080',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:8080/mindMap',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] { vary: 'Origin', 'access-control-allow-origin': '*' } },
+  app:
+   { env: 'local',
+     name: 'eggtry',
+     baseDir: 'D:\\play\\firstegg',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/api/download',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2020-05-14 14:47:48,879 INFO 11896 [-/::1/-/19ms POST /api/download] undefined
+2020-05-14 14:49:57,682 INFO 12876 [-/::1/-/15ms POST /api/download] { hello: { txt: '' } }
+2020-05-14 14:53:57,161 INFO 12876 [-/::1/-/2ms POST /api/download] { '{"filename":"hello': { 'txt"}': '' } }
+2020-05-14 14:55:12,918 INFO 12876 [-/::1/-/1ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 14:56:20,455 INFO 12876 [-/::1/-/0ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 14:57:17,963 INFO 12876 [-/::1/-/1ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 14:57:21,270 INFO 12876 [-/::1/-/0ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 14:58:16,907 ERROR 10332 [-/::1/-/10ms POST /api/download] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at validateString (internal/validators.js:125:11)
+    at Object.resolve (path.js:161:7)
+    at IndexController.download (D:\play\firstegg\app\controller\downloadFile.js:10:31)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10332
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 14:59:06,892 INFO 9648 [-/::1/-/6ms POST /api/download] {}
+2020-05-14 15:02:32,989 INFO 9648 [-/::1/-/17ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 15:05:49,492 INFO 9772 [-/::1/-/12ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 15:05:49,494 ERROR 9772 [-/::1/-/14ms POST /api/download] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at validateString (internal/validators.js:125:11)
+    at extname (path.js:830:5)
+    at Object.attachment (D:\play\firstegg\node_modules\koa\lib\response.js:287:31)
+    at Object.proto.(anonymous function) [as attachment] (D:\play\firstegg\node_modules\delegates\index.js:40:31)
+    at IndexController.download (D:\play\firstegg\app\controller\downloadFile.js:12:18)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9772
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 15:06:21,882 INFO 352 [-/::1/-/15ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 15:07:40,289 INFO 352 [-/::1/-/1ms POST /api/download] { filename: 'hello.txt' }
+2020-05-14 15:07:58,413 INFO 352 [-/::1/-/0ms POST /api/download] { filename: '1.jpg' }
+2020-05-14 15:08:47,751 INFO 352 [-/::1/-/1ms POST /api/download] { filename: '江湖游戏.xmind' }
+2020-05-14 15:14:28,009 INFO 15408 [-/::1/-/4ms GET /api/download] {}
+2020-05-14 15:14:28,014 ERROR 15408 [-/::1/-/8ms GET /api/download] nodejs.TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:125:11)
+    at Object.resolve (path.js:161:7)
+    at IndexController.download (D:\play\firstegg\app\controller\downloadFile.js:11:31)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15408
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 15:15:09,299 INFO 16104 [-/::1/-/6ms GET /api/download] { method: 'GET',
+  url: '/api/download',
+  header:
+   { host: 'localhost:8808',
+     connection: 'keep-alive',
+     'user-agent':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+     accept: '*/*',
+     origin: 'http://localhost:8080',
+     'sec-fetch-site': 'same-site',
+     'sec-fetch-mode': 'cors',
+     'sec-fetch-dest': 'empty',
+     referer: 'http://localhost:8080/mindMap',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'zh-CN,zh;q=0.9' } }
+2020-05-14 15:15:12,796 INFO 16104 [-/::1/-/0ms GET /api/download] { method: 'GET',
+  url: '/api/download',
+  header:
+   { host: 'localhost:8808',
+     connection: 'keep-alive',
+     'user-agent':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+     accept: '*/*',
+     origin: 'http://localhost:8080',
+     'sec-fetch-site': 'same-site',
+     'sec-fetch-mode': 'cors',
+     'sec-fetch-dest': 'empty',
+     referer: 'http://localhost:8080/mindMap',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'zh-CN,zh;q=0.9' } }
+2020-05-14 15:17:33,429 INFO 16104 [-/::1/-/0ms GET /api/download?filename=hello.txt] { method: 'GET',
+  url: '/api/download?filename=hello.txt',
+  header:
+   { host: 'localhost:8808',
+     connection: 'keep-alive',
+     'user-agent':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+     accept: '*/*',
+     origin: 'http://localhost:8080',
+     'sec-fetch-site': 'same-site',
+     'sec-fetch-mode': 'cors',
+     'sec-fetch-dest': 'empty',
+     referer: 'http://localhost:8080/mindMap',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'zh-CN,zh;q=0.9' } }
+2020-05-14 15:18:10,402 INFO 11232 [-/::1/-/7ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:20:14,701 INFO 14724 [-/::1/-/7ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:28:13,906 INFO 14724 [-/::1/-/17ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:28:23,603 INFO 14724 [-/::1/-/0ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:29:01,624 INFO 14724 [-/::1/-/0ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:29:07,665 INFO 14724 [-/::1/-/1ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:29:29,953 INFO 14724 [-/::1/-/1ms GET /api/download?filename=hello.txt] { filename: 'hello.txt' }
+2020-05-14 15:29:49,715 INFO 14724 [-/::1/-/1ms GET /api/download?filename=1.jpg] { filename: '1.jpg' }
+2020-05-14 15:30:19,688 INFO 14724 [-/::1/-/3ms GET /api/download?filename=%E6%B1%9F%E6%B9%96%E6%B8%B8%E6%88%8F.xmind] { filename: '江湖游戏.xmind' }
+2020-05-14 15:55:44,794 WARN 14724 [-/::1/-/102ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: 原型设计.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14724
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 15:57:04,549 WARN 16008 [-/::1/-/10ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: 原型设计.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16008
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 15:58:35,416 WARN 17356 [-/::1/-/10ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: 原型设计.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17356
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 15:59:00,804 WARN 10880 [-/::1/-/11ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: 原型设计.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10880
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 15:59:35,781 WARN 7828 [-/::1/-/11ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: webstormkey.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 7828
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:01:10,253 WARN 6336 [-/::1/-/11ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: webstormkey.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6336
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:02:22,786 INFO 6336 [-/::1/-/12ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] 1
+2020-05-14 16:02:22,787 INFO 6336 [-/::1/-/13ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] 3
+2020-05-14 16:02:22,788 INFO 6336 [-/::1/-/14ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] save
+2020-05-14 16:02:22,790 ERROR 6336 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.TypeError: the multipart request can't be consumed twice
+    at Object.multipart (D:\play\firstegg\node_modules\egg-multipart\app\extend\context.js:168:35)
+    at Object.getFileStream (D:\play\firstegg\node_modules\egg-multipart\app\extend\context.js:206:24)
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:54:39)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6336
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:02:55,097 INFO 13648 [-/::1/-/14ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] 1
+2020-05-14 16:02:55,098 INFO 13648 [-/::1/-/15ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] 3
+2020-05-14 16:02:55,099 INFO 13648 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] save
+2020-05-14 16:02:55,101 ERROR 13648 [-/::1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.TypeError: the multipart request can't be consumed twice
+    at Object.multipart (D:\play\firstegg\node_modules\egg-multipart\app\extend\context.js:168:35)
+    at Object.getFileStream (D:\play\firstegg\node_modules\egg-multipart\app\extend\context.js:206:24)
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:54:39)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13648
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:06:23,344 ERROR 2640 [-/::1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.TypeError: the multipart request can't be consumed twice
+    at Object.multipart (D:\play\firstegg\node_modules\egg-multipart\app\extend\context.js:168:35)
+    at Object.getFileStream (D:\play\firstegg\node_modules\egg-multipart\app\extend\context.js:206:24)
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:54:39)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 2640
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:07:02,386 WARN 14216 [-/::1/-/10ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: webstormkey.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14216
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:09:36,765 INFO 7128 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\b1d7c915-b2f1-4754-b816-37688502eb2e.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:18:38,025 INFO 7544 [-/::1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\8c612e4d-d359-4815-a8ee-d34d393027aa.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:18:38,028 ERROR 7544 [-/::1/-/20ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.ReferenceError: path is not defined
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:57:85)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 7544
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:22:28,971 INFO 7180 [-/::1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\f42b2b24-3780-4561-bd57-d8528a7ed4c7.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:22:28,975 ERROR 7180 [-/::1/-/19ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.ReferenceError: dayjs is not defined
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:60:25)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 7180
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:23:26,098 INFO 10692 [-/::1/-/15ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\f63ffea7-a1c0-4e97-a5a8-7c8c73bb631c.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:23:26,101 ERROR 10692 [-/::1/-/18ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.ReferenceError: fs is not defined
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:60:9)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10692
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:24:05,950 INFO 16900 [-/::1/-/14ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\44351063-c997-48b0-963a-da9294a12776.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:24:05,953 ERROR 16900 [-/::1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.ReferenceError: dirName is not defined
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:63:71)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16900
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:24:49,009 INFO 16064 [-/::1/-/14ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\2ab185ea-139c-4985-ace9-482748bede78.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:24:49,012 ERROR 16064 [-/::1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.EEXISTError: EEXIST: file already exists, mkdir 'D:\play\firstegg\app\public\upload\'
+    at Object.mkdirSync (fs.js:757:3)
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:61:34)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+errno: -4075
+syscall: "mkdir"
+code: "EEXIST"
+path: "D:\\play\\firstegg\\app\\public\\upload\\"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "EEXISTError"
+pid: 16064
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:25:35,562 INFO 9512 [-/::1/-/14ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\f8f62879-a4bf-43d4-bdb7-52eabce79819.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:25:35,569 ERROR 9512 [-/::1/-/21ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.TypeError: params.content.pipe is not a function
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:66:34)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9512
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:28:38,732 INFO 13808 [-/::1/-/15ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\25510ea7-0182-4bae-ae78-1c00a9ef40be.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:28:38,738 ERROR 13808 [-/::1/-/20ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.TypeError: stream.pipe is not a function
+    at NewsService.savefile (D:\play\firstegg\app\service\mycurl.js:65:22)
+    at curlController.index (D:\play\firstegg\app\controller\procurl.js:26:51)
+    at Object.callFn (D:\play\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\play\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\play\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\play\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\play\firstegg\node_modules\koa-compose\index.js:45:18)
+    at D:\play\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\play\firstegg\node_modules\koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13808
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:30:10,749 INFO 7864 [-/::1/-/14ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\9d2a2264-7a8c-4870-b0b8-af5bd13feba2.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:30:10,750 INFO 7864 [-/::1/-/15ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 60 00 60 00 00 ff db 00 43 00 08 06 06 07 06 05 08 07 07 07 09 09 08 0a 0c 14 0d 0c 0b 0b 0c 19 12 13 0f ... >
+2020-05-14 16:36:36,214 INFO 15620 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\73d9a95a-2a21-45b9-be56-5e7ee565aeac.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:36:36,216 INFO 15620 [-/::1/-/18ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] ReadStream {
+  _readableState:
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 65536,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     paused: true,
+     emitClose: false,
+     autoDestroy: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  _events: [Object: null prototype] { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  path:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\73d9a95a-2a21-45b9-be56-5e7ee565aeac.jpg',
+  fd: null,
+  flags: 'r',
+  mode: 438,
+  start: undefined,
+  end: Infinity,
+  autoClose: true,
+  pos: undefined,
+  bytesRead: 0,
+  closed: false }
+2020-05-14 16:47:22,495 INFO 13320 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\df5f6f52-54a5-4adc-8324-fc34a3bdd069.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:47:22,497 INFO 13320 [-/::1/-/18ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] ReadStream {
+  _readableState:
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 65536,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     paused: true,
+     emitClose: false,
+     autoDestroy: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  _events: [Object: null prototype] { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  path:
+   'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\df5f6f52-54a5-4adc-8324-fc34a3bdd069.jpg',
+  fd: null,
+  flags: 'r',
+  mode: 438,
+  start: undefined,
+  end: Infinity,
+  autoClose: true,
+  pos: undefined,
+  bytesRead: 0,
+  closed: false }
+2020-05-14 16:47:42,585 INFO 4340 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\189c44ca-941d-4be5-bc7c-e0c557d10250.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:48:42,259 INFO 4340 [-/::1/-/3ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '1.jpg',
+     encoding: '7bit',
+     mime: 'image/jpeg',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/jpeg',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\570fecb6-7a07-4eb3-8f81-a2908262a007.jpg' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 16:57:41,397 WARN 4340 [-/::1/-/2ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] nodejs.Error: Invalid filename: webstormkey.txt
+    at checkFile (D:\play\firstegg\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (D:\play\firstegg\node_modules\co-busboy\index.js:101:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (D:\play\firstegg\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (D:\play\firstegg\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (D:\play\firstegg\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4340
+hostname: DESKTOP-3VTC7OJ
+
+2020-05-14 16:59:51,034 INFO 11252 [-/::1/-/16ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: 'webstormkey.txt',
+     encoding: '7bit',
+     mime: 'text/plain',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'text/plain',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\16\\1ee029b1-b4e8-4fc2-8071-6809b0145142.txt' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
+2020-05-14 17:00:15,483 INFO 11252 [-/::1/-/5ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: '江湖游戏.xmind',
+     encoding: '7bit',
+     mime: 'application/octet-stream',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'application/octet-stream',
+     filepath:
+      'C:\\Users\\芒果240\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2020\\05\\14\\17\\5921557e-7fa4-4875-9f14-d996c856df8b.xmind' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }

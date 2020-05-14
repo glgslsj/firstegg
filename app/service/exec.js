@@ -3,6 +3,7 @@ const {exec} = require('child_process');
 
 class NewsService extends Service {
     async index(params) {
+        // 是命令行
         const ctx = this.ctx
         ctx.logger.info(params);
            return new Promise(function (resolve, reject) {
