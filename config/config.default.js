@@ -32,5 +32,5 @@ exports.bodyParser = {
     jsonLimit: '100mb',
     formLimit: '100mb'
 };
-exports.multipart = { mode: "file", fileSize: "600mb",fileExtensions :['amr','txt','xmind'] };
+exports.multipart = { mode: "file", fileSize: "600mb",fileExtensions :['amr','txt','xmind','apk'] };
 

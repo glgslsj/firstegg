@@ -67,5 +67,4 @@ class NewsService extends Service {
         }
     }
 }
-
 module.exports = NewsService;
