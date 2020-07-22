@@ -146,7 +146,9 @@
       "fileExtensions": [
         "amr",
         "txt",
-        "xmind"
+        "xmind",
+        "apk",
+        "zip"
       ],
       "whitelist": null,
       "tmpdir": "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry",

@@ -16,7 +16,7 @@ class curlController extends Controller {
         if (content.hasOwnProperty('method')&&content.method === 'post'||query.hasOwnProperty('method')&&query.method==='post'){
             if (isfile) {
                 // this.ctx.logger.info(1);
-                if (query.url==='https://sm.ms/api/upload') {
+                if (query.url==='https://sm.ms/api/v2/upload') {
                     // this.ctx.logger.info(2);
                     // 如果是向sm.ms发送图片，则
                     result = await ctx.service.mycurl.postfile({content:content, query:query})
