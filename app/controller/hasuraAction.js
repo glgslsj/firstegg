@@ -3,8 +3,12 @@ const Controller = require('egg').Controller;
 class HasuraActionController extends Controller {
     async index() {
         const { app, ctx } = this;
-        const { username } = ctx.request.body.input;
-        var content = {token:username}
+        const { username } = ctx.request.body.input.account;
+        let content = {token:'username'}
+        if (username){
+            content.token = username
+        }
+
         /*const mailOptions = {
             from: '1109833087@qq.com',
             to: '359718689@qq.com',
