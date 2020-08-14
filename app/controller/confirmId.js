@@ -2,6 +2,7 @@ const Controller = require('egg').Controller;
 
 class confirmIdController extends Controller {
     // 这个接口需要传入一个{account:$username,ep:$password}的数据进行判断是否有这个用户，暂时这样，要改成增加一个时间戳加密判断更好
+    // 已经改成了加密后的密码验证
     // 这里还需要传入一个密码的id，用来获取数据库存的密码
     async index() {
         const ctx = this.ctx;
