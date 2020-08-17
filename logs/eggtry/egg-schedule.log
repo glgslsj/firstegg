@@ -754,3 +754,33 @@
 2020-07-22 23:47:43,111 INFO 9420 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-07-22 23:47:43,111 INFO 9420 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-07-22 23:47:43,111 INFO 9420 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:53:23,094 INFO 13276 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-17 11:53:23,094 INFO 13276 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-17 11:53:23,094 INFO 13276 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:53:23,794 INFO 4324 [Timer] E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59796215ms at 2020-08-18 04:30:00.009
+2020-08-17 11:53:23,795 INFO 4324 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43596206ms at 2020-08-18 00:00:00.001
+2020-08-17 11:53:23,795 INFO 4324 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43597205ms at 2020-08-18 00:00:01.000
+2020-08-17 11:53:25,123 INFO 8968 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-17 11:53:25,123 INFO 8968 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-17 11:53:25,123 INFO 8968 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:53:27,599 INFO 464 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-17 11:53:27,599 INFO 464 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-17 11:53:27,599 INFO 464 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:57:01,947 INFO 16604 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-17 11:57:01,947 INFO 16604 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-17 11:57:01,947 INFO 16604 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:57:02,699 INFO 10080 [Timer] E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59577310ms at 2020-08-18 04:30:00.009
+2020-08-17 11:57:02,700 INFO 10080 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43377300ms at 2020-08-18 00:00:00.000
+2020-08-17 11:57:02,702 INFO 10080 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43378299ms at 2020-08-18 00:00:01.001
+2020-08-17 11:58:19,533 INFO 9584 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-17 11:58:19,533 INFO 9584 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-17 11:58:19,533 INFO 9584 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:58:20,135 INFO 17244 [Timer] E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59499871ms at 2020-08-18 04:30:00.006
+2020-08-17 11:58:20,136 INFO 17244 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43299865ms at 2020-08-18 00:00:00.001
+2020-08-17 11:58:20,136 INFO 17244 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43300864ms at 2020-08-18 00:00:01.000
+2020-08-17 11:58:44,688 INFO 14404 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-17 11:58:44,688 INFO 14404 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-17 11:58:44,688 INFO 14404 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-17 11:58:45,285 INFO 15728 [Timer] E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59474721ms at 2020-08-18 04:30:00.006
+2020-08-17 11:58:45,286 INFO 15728 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43274714ms at 2020-08-18 00:00:00.000
+2020-08-17 11:58:45,287 INFO 15728 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43275714ms at 2020-08-18 00:00:01.001

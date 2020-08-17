@@ -206,7 +206,8 @@
       "egg-scripts": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
       "form-data": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
-      "formstream": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
+      "formstream": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js",
+      "jsonwebtoken": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "E:\\tryproject\\firstegg\\node_modules\\egg\\config\\config.default.js"
