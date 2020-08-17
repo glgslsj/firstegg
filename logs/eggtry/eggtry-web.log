@@ -1373,3 +1373,18 @@ hostname: DESKTOP-3VTC7OJ
 2020-07-22 19:19:57,225 INFO 9384 [-/192.168.31.185/-/181ms POST /api/speech?format=amr] 语音识别结果: {"err_msg":"request pv too much","err_no":3305,"sn":"888192003621595416798"}
 2020-07-22 19:20:21,514 INFO 9384 [-/192.168.31.185/-/6ms POST /api/speech?format=amr] 奇怪 
 2020-07-22 19:20:21,881 INFO 9384 [-/192.168.31.185/-/373ms POST /api/speech?format=amr] 语音识别结果: {"err_msg":"request pv too much","err_no":3305,"sn":"436776652021595416822"}
+2020-08-17 12:19:55,720 ERROR 12928 [-/127.0.0.1/-/32ms POST /api/tryaction] nodejs.TypeError: Cannot destructure property `username` of 'undefined' or 'null'.
+    at HasuraActionController.index (E:\tryproject\firstegg\app\controller\hasuraAction.js:19:53)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 12928
+hostname: DESKTOP-KD3VG42
+

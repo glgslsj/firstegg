@@ -32,7 +32,7 @@ class HasuraActionController extends Controller {
             jwtkey,
             // 第二个字段设置有效期为30天内
             { algorithm: 'HS256', expiresIn: '30 days' });
-        ctx.body = token;
+        ctx.body = {token:token};
         ctx.status = 201;
     }
     async login() {
