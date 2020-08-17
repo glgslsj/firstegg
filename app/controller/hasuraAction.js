@@ -2,7 +2,7 @@ const Controller = require('egg').Controller;
 import * as jwt from 'jsonwebtoken';
 
 class HasuraActionController extends Controller {
-    verityJWT(JWT) {
+    /*verityJWT(JWT) {
         let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
         return jwt.verify(JWT, this.jwtkey, (err, payload) => {
             // if token alg != RS256,  err == invalid signature
@@ -11,7 +11,7 @@ class HasuraActionController extends Controller {
             }
             return payload;
         });
-    }
+    }*/
     async index() {
         var jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
         const { app, ctx } = this;

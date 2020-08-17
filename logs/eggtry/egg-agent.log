@@ -3152,3 +3152,33 @@ hostname: DESKTOP-3VTC7OJ
 2020-07-22 23:47:39,552 INFO 2284 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\tryproject\\firstegg\\app\\router.js","stat":{"dev":239992389,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":5348024558169379,"size":840,"atimeMs":1595432859551.213,"mtimeMs":1589468693259.7002,"ctimeMs":1589468693261.695,"birthtimeMs":1589468693259.7002,"atime":"2020-07-22T15:47:39.551Z","mtime":"2020-05-14T15:04:53.260Z","ctime":"2020-05-14T15:04:53.262Z","birthtime":"2020-05-14T15:04:53.260Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-07-22 23:47:41,557 WARN 2284 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
 2020-07-22 23:47:43,644 WARN 2284 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-08-17 11:46:01,588 INFO 16532 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-17 11:46:01,611 INFO 16532 [egg:core] dump config after load, 8ms
+2020-08-17 11:46:01,691 INFO 16532 [egg-watcher] Start watching: ["E:\\tryproject\\firstegg\\app","E:\\tryproject\\firstegg\\config","E:\\tryproject\\firstegg\\mocks","E:\\tryproject\\firstegg\\mocks_proxy","E:\\tryproject\\firstegg\\app.js"]
+2020-08-17 11:46:01,691 INFO 16532 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\app"
+2020-08-17 11:46:01,692 INFO 16532 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\config"
+2020-08-17 11:46:01,692 INFO 16532 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\mocks"
+2020-08-17 11:46:01,692 INFO 16532 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\mocks_proxy"
+2020-08-17 11:46:01,692 INFO 16532 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\app.js"
+2020-08-17 11:46:01,693 INFO 16532 [egg-watcher:agent] watcher start success
+2020-08-17 11:46:01,725 INFO 16532 [egg:core] dump config after ready, 14ms
+2020-08-17 11:46:51,563 INFO 16880 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-17 11:46:51,586 INFO 16880 [egg:core] dump config after load, 8ms
+2020-08-17 11:46:51,662 INFO 16880 [egg-watcher] Start watching: ["E:\\tryproject\\firstegg\\app","E:\\tryproject\\firstegg\\config","E:\\tryproject\\firstegg\\mocks","E:\\tryproject\\firstegg\\mocks_proxy","E:\\tryproject\\firstegg\\app.js"]
+2020-08-17 11:46:51,662 INFO 16880 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\app"
+2020-08-17 11:46:51,663 INFO 16880 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\config"
+2020-08-17 11:46:51,663 INFO 16880 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\mocks"
+2020-08-17 11:46:51,663 INFO 16880 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\mocks_proxy"
+2020-08-17 11:46:51,664 INFO 16880 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\app.js"
+2020-08-17 11:46:51,664 INFO 16880 [egg-watcher:agent] watcher start success
+2020-08-17 11:46:51,687 INFO 16880 [egg:core] dump config after ready, 11ms
+2020-08-17 11:49:04,734 INFO 16032 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-08-17 11:49:04,756 INFO 16032 [egg:core] dump config after load, 8ms
+2020-08-17 11:49:04,834 INFO 16032 [egg-watcher] Start watching: ["E:\\tryproject\\firstegg\\app","E:\\tryproject\\firstegg\\config","E:\\tryproject\\firstegg\\mocks","E:\\tryproject\\firstegg\\mocks_proxy","E:\\tryproject\\firstegg\\app.js"]
+2020-08-17 11:49:04,834 INFO 16032 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\app"
+2020-08-17 11:49:04,835 INFO 16032 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\config"
+2020-08-17 11:49:04,835 INFO 16032 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\mocks"
+2020-08-17 11:49:04,836 INFO 16032 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\mocks_proxy"
+2020-08-17 11:49:04,836 INFO 16032 [egg-watcher] Start watching: "E:\\tryproject\\firstegg\\app.js"
+2020-08-17 11:49:04,836 INFO 16032 [egg-watcher:agent] watcher start success
+2020-08-17 11:49:04,860 INFO 16032 [egg:core] dump config after ready, 11ms
