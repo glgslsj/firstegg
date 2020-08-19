@@ -1,0 +1,165 @@
+2020-08-19 14:59:44,852 ERROR 6740 [-/::1/-/15ms GET /api/trycloud] nodejs.ReferenceError: generateUniqueId is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:89:18)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 6740
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:00:37,551 ERROR 6740 [-/::1/-/2ms GET /api/trycloud] nodejs.ReferenceError: generateUniqueId is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:89:18)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 6740
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:01:25,774 ERROR 14032 [-/::1/-/13ms GET /api/trycloud] nodejs.TypeError: this.generateUniqueId is not a function
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:89:23)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 14032
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:01:59,331 ERROR 12260 [-/::1/-/10ms GET /api/trycloud] nodejs.TypeError: all_outof_count.push is not a function
+    at TryLoginController.generateUniqueId (E:\tryproject\firstegg\app\controller\tryLogin.js:23:32)
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:89:23)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+
+pid: 12260
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:02:13,937 ERROR 12260 [-/::1/-/1ms GET /api/trycloud] nodejs.TypeError: all_outof_count.push is not a function
+    at TryLoginController.generateUniqueId (E:\tryproject\firstegg\app\controller\tryLogin.js:23:32)
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:89:23)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+
+pid: 12260
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:02:45,962 ERROR 2964 [-/::1/-/10ms GET /api/trycloud] nodejs.ReferenceError: ctx is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:90:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 2964
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:02:48,721 ERROR 2964 [-/::1/-/1ms GET /api/trycloud] nodejs.ReferenceError: ctx is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:90:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 2964
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:02:56,018 ERROR 2964 [-/::1/-/0ms GET /api/trycloud] nodejs.ReferenceError: ctx is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:90:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 2964
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:03:30,050 ERROR 2964 [-/::1/-/1ms GET /api/trycloud] nodejs.ReferenceError: ctx is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:90:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 2964
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:03:37,433 ERROR 2964 [-/::1/-/0ms GET /api/trycloud] nodejs.ReferenceError: ctx is not defined
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:90:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 2964
+hostname: DESKTOP-KD3VG42
+
+2020-08-19 15:10:44,026 ERROR 1904 [-/::1/-/20ms GET /api/trycloud] nodejs.TypeError: Cannot assign to read only property '0' of string '100'
+    at TryLoginController.generateUniqueId (E:\tryproject\firstegg\app\controller\tryLogin.js:15:25)
+    at TryLoginController.test (E:\tryproject\firstegg\app\controller\tryLogin.js:91:23)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+
+pid: 1904
+hostname: DESKTOP-KD3VG42
+

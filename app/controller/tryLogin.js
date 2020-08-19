@@ -1,0 +1,125 @@
+const Controller = require('egg').Controller;
+// import * as jwt from ;
+const jwt = require('jsonwebtoken');
+
+class TryLoginController extends Controller {
+    generateUniqueId(incrementing_no) {
+        let type = 1
+        let batch = incrementing_no >= 1000000 ? 2 : 1
+        let incrementno;
+        if (incrementing_no < 1000000) {
+            incrementno = incrementing_no
+        } else if (incrementing_no >= 1000000 && incrementing_no < 1000100) {
+            let noString = (100 + incrementing_no - 1000000).toString()
+            let newNoString = '0' + noString[1] + noString[2]
+            incrementno = newNoString
+        } else {
+            incrementno = incrementing_no - 1000000
+        }
+        let checksum = (incrementing_no % 10 + 1) % 10
+        let all_outof_count = "" + type + batch + incrementno + checksum
+        let count = all_outof_count.length
+        let id = all_outof_count + count
+        return id
+    }
+
+    async signUp() {
+        const {app, ctx} = this;
+        let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+        const user = ctx.request.body.input.user;
+        let id = generateUniqueId(102)
+        Object.assign(user, {unique_id: id})
+        let options = {
+            method: 'POST',
+            data: {
+                variables: user,
+                query: `mutation MyMutation($first_name: String, $email: String, $country_code: String, $encrypted_password: String, $avatar: String, $last_good_deed: String, $last_name: String, $one_word_blurb: String, $phone: String, $profile_name: String, $unique_id: String) {
+  insert_user(objects: {avatar: $avatar, country_code: $country_code, email: $email, encrypted_password: $encrypted_password, first_name: $first_name, last_good_deed: $last_good_deed, last_name: $last_name, one_word_blurb: $one_word_blurb, phone: $phone, profile_name: $profile_name, userPings: {data: {}}, unique_id: $unique_id}) {
+    returning {
+      id
+      hero_authority
+    }
+  }
+}`
+            }, // 这里的query后面必须跟一个名字
+            headers: {'Content-Type': 'application/json', 'x-hasura-admin-secret': 'hero'},
+            dataType: 'json',
+        }
+        let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
+        const hasuraRes = await this.ctx.curl(hasuraUrl, options)
+        let res = hasuraRes.data.data.user[0]
+        const token = jwt.sign(
+            {
+                "admin": true,
+                'https://hasura.io/jwt/claims': {
+                    'x-hasura-allowed-roles': ['admin', 'guest'],
+                    'x-hasura-default-role': 'admin',
+                    'x-hasura-role': 'admin'
+                },
+            },
+            jwtkey,
+            // 第二个字段设置有效期为30天内
+            {algorithm: 'HS256', expiresIn: '30 days'});
+        let output = {
+            accessToken: token,
+            id: res.id,
+            hero_authority: res.hero_authority,
+        }
+        ctx.body = output;
+        ctx.status = 201;
+    }
+
+    async autoSignin() {
+        let verityJWT = function (JWT) {
+            let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+            return jwt.verify(JWT, jwtkey, (err, payload) => {
+                // if token alg != RS256,  err == invalid signature
+                if (err) {
+                    throw {desc: 'token errors', content: err, errCode: 102};
+                }
+                return payload;
+            });
+        };
+        var jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+        const ctx = this.ctx;
+        let result = false
+        let postData = ctx.request.body
+        let options = {
+            method: 'POST',
+            data: {
+                variables: {userName: postData.username},
+                query: `query q($userName:String) { 
+         user(where: {userName: {_eq: $userName}}) {
+          role
+          nickName
+          userName
+          password
+        }
+      }`
+            }, // 这里的query后面必须跟一个名字
+            headers: {'Content-Type': 'application/json', 'x-hasura-admin-secret': '333'},
+            dataType: 'json',
+        }
+        let hasuraUrl = 'http://112.126.102.214:8080/v1/graphql'
+        const userRes = await this.ctx.curl(hasuraUrl, options)
+        let user = userRes.data.data.user
+        if (user && user.length > 0) {
+            result = {token: user[0].role}
+        }
+        ctx.body = {
+            data: result
+        };
+        ctx.status = 201;
+    }
+
+    test() {
+        const {app, ctx} = this;
+        let id = this.generateUniqueId(1000023)
+        ctx.body = {
+            data: id
+        };
+        ctx.status = 201;
+    }
+}
+
+module.exports = TryLoginController;

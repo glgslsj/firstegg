@@ -3,39 +3,42 @@ const Controller = require('egg').Controller;
 const jwt = require('jsonwebtoken');
 
 class HasuraActionController extends Controller {
-    verityJWT(JWT) {
-        let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
-        return jwt.verify(JWT, this.jwtkey, (err, payload) => {
-            // if token alg != RS256,  err == invalid signature
-            if (err) {
-                throw { desc: 'token errors', content: err, errCode: 102 };
-            }
-            return payload;
-        });
-    }
     async index() {
-        var jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
-        const { app, ctx } = this;
-        const { username } = ctx.request.body.input.account;
+        const {app, ctx} = this;
+        const {username} = ctx.request.body.input.account;
         /*let content = {token:'username'}
         if (username){
             content.token = username
         }*/
-
         const token = jwt.sign(
             {
+                "name": "John Doe",
+                "admin": true,
                 'https://hasura.io/jwt/claims': {
-                    'x-hasura-allowed-roles': [ 'admin','guest' ],
+                    'x-hasura-allowed-roles': ['admin', 'guest'],
                     'x-hasura-default-role': 'admin',
+                    'x-hasura-role': 'admin'
                 },
             },
             jwtkey,
             // 第二个字段设置有效期为30天内
-            { algorithm: 'HS256', expiresIn: '30 days' });
-        ctx.body = {token:token};
+            {algorithm: 'HS256', expiresIn: '30 days'});
+
+        ctx.body = {token: token};
         ctx.status = 201;
     }
-    async login() {
+    async autoSignin() {
+        let verityJWT = function(JWT) {
+            let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+            return jwt.verify(JWT, jwtkey, (err, payload) => {
+                // if token alg != RS256,  err == invalid signature
+                if (err) {
+                    throw {desc: 'token errors', content: err, errCode: 102};
+                }
+                return payload;
+            });
+        };
+        var jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
         const ctx = this.ctx;
         let result = false
         let postData = ctx.request.body
@@ -58,11 +61,11 @@ class HasuraActionController extends Controller {
         let hasuraUrl = 'http://112.126.102.214:8080/v1/graphql'
         const userRes = await this.ctx.curl(hasuraUrl, options)
         let user = userRes.data.data.user
-        if (user&&user.length>0) {
-            result = {token:user[0].role}
+        if (user && user.length > 0) {
+            result = {token: user[0].role}
         }
         ctx.body = {
-            data:result
+            data: result
         };
         ctx.status = 201;
     }

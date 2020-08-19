@@ -10,4 +10,5 @@ module.exports = app => {
     router.get('/api/download', controller.downloadFile.getdownload);// 下载的get接口
     router.post('/api/confirmId', controller.confirmId.index); // 本人判断并换密码的接口
     router.post('/api/tryaction', controller.hasuraAction.index); // 本人判断并换密码的接口
+    router.get('/api/trycloud', controller.tryLogin.test);// helloworld，测试接口
 };

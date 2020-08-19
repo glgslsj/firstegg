@@ -28,6 +28,9 @@ class HomeController extends Controller {
         ctx.body = content;
         ctx.status = 201;
     }
+    test(){
+
+    }
 }
 
 module.exports = HomeController;
