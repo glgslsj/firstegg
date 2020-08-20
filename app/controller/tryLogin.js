@@ -49,7 +49,9 @@ class TryLoginController extends Controller {
             }
             let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
             const hasuraRes = await this.ctx.curl(hasuraUrl, options)
+            ctx.logger.info(hasuraRes);
             let res = hasuraRes.data.data.user[0]
+            ctx.logger.info(res);
             const token = jwt.sign(
                 {
                     "admin": true,
@@ -69,7 +71,11 @@ class TryLoginController extends Controller {
                 hero_authority: res.hero_authority,
             }
         }  else {
-
+            output = {
+                accessToken: 'token',
+                id: 10,
+                hero_authority: false,
+            }
         }
         ctx.body = output;
         ctx.status = 201;
