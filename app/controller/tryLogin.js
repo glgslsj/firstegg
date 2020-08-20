@@ -134,8 +134,10 @@ class TryLoginController extends Controller {
     test(){
         const {app, ctx} = this;
         ctx.body = {
-            data: 'id'
-        };
+            accessToken: 'token',
+            id: 10,
+            hero_authority: false,
+        }
         ctx.status = 201;
     }
 }
