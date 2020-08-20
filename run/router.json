@@ -129,8 +129,34 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/trycloud",
-    "regexp": "/^\\/api\\/trycloud(?:\\/(?=$))?$/",
+    "path": "/api/signUp",
+    "regexp": "/^\\/api\\/signUp(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/autoSignin",
+    "regexp": "/^\\/api\\/autoSignin(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/signIn",
+    "regexp": "/^\\/api\\/signIn(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
