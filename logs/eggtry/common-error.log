@@ -1,0 +1,45 @@
+2020-08-21 12:54:28,425 ERROR 7716 [-/127.0.0.1/-/6ms GET /test] nodejs.ReferenceError: ctx is not defined
+    at HomeController.test (E:\tryproject\firstegg\app\controller\home.js:34:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 7716
+hostname: DESKTOP-KD3VG42
+
+2020-08-21 12:55:02,753 ERROR 7716 [-/127.0.0.1/-/9ms GET /test] nodejs.ReferenceError: ctx is not defined
+    at HomeController.test (E:\tryproject\firstegg\app\controller\home.js:34:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 7716
+hostname: DESKTOP-KD3VG42
+
+2020-08-21 12:55:05,297 ERROR 7716 [-/127.0.0.1/-/1ms GET /test] nodejs.ReferenceError: ctx is not defined
+    at HomeController.test (E:\tryproject\firstegg\app\controller\home.js:34:9)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\tryproject\firstegg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\tryproject\firstegg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at next (E:\tryproject\firstegg\node_modules\koa-compose\index.js:45:18)
+    at E:\tryproject\firstegg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\tryproject\firstegg\node_modules\koa-compose\index.js:44:32)
+    at E:\tryproject\firstegg\node_modules\koa-compose\index.js:36:12
+
+pid: 7716
+hostname: DESKTOP-KD3VG42
+

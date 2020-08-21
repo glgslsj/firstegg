@@ -26,10 +26,10 @@ class HomeController extends Controller {
             }
             app.email.close();
         });*/
-        ctx.body = content;
+        ctx.body = store('incrementing_no');
         ctx.status = 201;
     }
-    test(){
+    test(ctx){
         store('incrementing_no',102)
         ctx.body = store('incrementing_no')
         ctx.status = 201;
