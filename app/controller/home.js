@@ -30,7 +30,11 @@ class HomeController extends Controller {
         ctx.status = 201;
     }
     test(ctx){
-        store('incrementing_no',102)
+        if(store('incrementing_no')===null){
+            store('incrementing_no',101)
+        }
+        let no = store('incrementing_no')+1
+        store('incrementing_no',no)
         ctx.body = store('incrementing_no')
         ctx.status = 201;
     }
