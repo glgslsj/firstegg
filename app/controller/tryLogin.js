@@ -32,7 +32,8 @@ class TryLoginController extends Controller {
         if (user.hero_exist === false) {
             let nowno=store('incrementing_no')
             let id = this.generateUniqueId(nowno)
-            store('incrementing_no',nowno++)
+            nowno++
+            store('incrementing_no',nowno)
             Object.assign(user, {unique_id: id})
             delete (user['hero_exist'])
             let options = {
