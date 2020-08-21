@@ -53,7 +53,16 @@ class TryLoginController extends Controller {
             }
             let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
             const hasuraRes = await this.ctx.curl(hasuraUrl, options)
-            ctx.logger.info(hasuraRes);
+            if (!hasuraRes.data.hasOwnProperty('data')) {
+                ctx.logger.info(hasuraRes.data.errors[0]);
+                output = {
+                    accessToken: 'error',
+                    hero_authority: false,
+                }
+                ctx.body = output;
+                ctx.status = 201;
+                return
+            }
             let res = hasuraRes.data.data.insert_user.returning[0]
             ctx.logger.info(res);
             const token = jwt.sign(
@@ -98,6 +107,16 @@ class TryLoginController extends Controller {
             }
             let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
             const update_res = await this.ctx.curl(hasuraUrl, options)
+            if (!update_res.data.hasOwnProperty('data')) {
+                ctx.logger.info(update_res.data.errors[0]);
+                output = {
+                    accessToken: 'error',
+                    hero_authority: false,
+                }
+                ctx.body = output;
+                ctx.status = 201;
+                return
+            }
             let res = update_res.data.data.update_user.returning[0]
             const token = jwt.sign(
                 {
