@@ -1,6 +1,7 @@
 const Controller = require('egg').Controller;
 // import * as jwt from ;
 const jwt = require('jsonwebtoken');
+const store = require('store2')
 
 class TryLoginController extends Controller {
     generateUniqueId(incrementing_no) {
@@ -27,10 +28,13 @@ class TryLoginController extends Controller {
         const {app, ctx} = this;
         let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
         let output = {}
-        const user = ctx.request.body.input.user;
-        if (user.isExist === false) {
-            let id = generateUniqueId(102)
+        const {user} = ctx.request.body.input;
+        if (user.hero_exist === false) {
+            let nowno=store('incrementing_no')
+            let id = this.generateUniqueId(nowno)
+            store('incrementing_no',nowno++)
             Object.assign(user, {unique_id: id})
+            delete (user['hero_exist'])
             let options = {
                 method: 'POST',
                 data: {
@@ -50,7 +54,7 @@ class TryLoginController extends Controller {
             let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
             const hasuraRes = await this.ctx.curl(hasuraUrl, options)
             ctx.logger.info(hasuraRes);
-            let res = hasuraRes.data.data.user[0]
+            let res = hasuraRes.data.data.insert_user.returning[0]
             ctx.logger.info(res);
             const token = jwt.sign(
                 {
@@ -67,14 +71,50 @@ class TryLoginController extends Controller {
                 {algorithm: 'HS256', expiresIn: '30 days'});
             output = {
                 accessToken: token,
-                id: res.id,
                 hero_authority: res.hero_authority,
             }
         }  else {
+            delete (user['hero_exist'])
+            if (user.unique_id === '')
+            {
+                let id = globalutil.generateUniqueId(store.$private.get('user_incrementing_no'))
+                user.unique_id = id
+            }
+            let options = {
+                method: 'POST',
+                data: {
+                    variables: user,
+                    query: `mutation MyMutation($first_name: String, $email: String, $country_code: String, $encrypted_password: String, $avatar: String, $last_good_deed: String, $last_name: String, $one_word_blurb: String, $phone: String, $profile_name: String, $unique_id: String) {
+                                  update_user(_set: {avatar:$avatar,country_code:$country_code,email:$email,encrypted_password:$encrypted_password,first_name:$first_name,last_good_deed:$last_good_deed,last_name:$last_name,one_word_blurb:$one_word_blurb,phone:$phone,profile_name:$profile_name,unique_id:$unique_id}) {
+                    returning {
+                      hero_authority
+                      unique_id
+                    }
+                  }
+                }`
+                }, // 这里的query后面必须跟一个名字
+                headers: {'Content-Type': 'application/json', 'x-hasura-admin-secret': 'hero'},
+                dataType: 'json',
+            }
+            let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
+            const update_res = await this.ctx.curl(hasuraUrl, options)
+            let res = update_res.data.data.update_user.returning[0]
+            const token = jwt.sign(
+                {
+                    "admin": true,
+                    'https://hasura.io/jwt/claims': {
+                        'x-hasura-allowed-roles': ['hero', 'citizen','guest'],
+                        'x-hasura-default-role': 'hero',
+                        'x-hasura-role': 'hero',
+                        'x-hasura-id' : res.id
+                    },
+                },
+                jwtkey,
+                // 第二个字段设置有效期为30天内
+                {algorithm: 'HS256', expiresIn: '30 days'});
             output = {
                 accessToken: 'token',
-                id: 10,
-                hero_authority: false,
+                hero_authority: res.hero_authority,
             }
         }
         ctx.body = output;
@@ -131,13 +171,71 @@ class TryLoginController extends Controller {
         ctx.status = 201;
     }
 
-    test(){
+    async test() {
         const {app, ctx} = this;
-        ctx.body = {
-            accessToken: 'token',
-            id: 10,
-            hero_authority: false,
+        let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+        let output = {}
+        const {user} = ctx.request.body.input;
+        if (user.isExist === false) {
+            delete(user['isExist']);
+            let id = this.generateUniqueId(108)
+            Object.assign(user, {unique_id: id})
+            let options = {
+                method: 'POST',
+                data: {
+                    variables: user,
+                    query: `mutation MyMutation($first_name: String, $email: String, $country_code: String, $encrypted_password: String, $avatar: String, $last_good_deed: String, $last_name: String, $one_word_blurb: String, $phone: String, $profile_name: String, $unique_id: String) {
+                  insert_user(objects: {avatar: $avatar, country_code: $country_code, email: $email, encrypted_password: $encrypted_password, first_name: $first_name, last_good_deed: $last_good_deed, last_name: $last_name, one_word_blurb: $one_word_blurb, phone: $phone, profile_name: $profile_name, userPings: {data: {}}, unique_id: $unique_id}) {
+                    returning {
+                      id
+                      hero_authority
+                    }
+                  }
+                }`
+                }, // 这里的query后面必须跟一个名字
+                headers: {'Content-Type': 'application/json', 'x-hasura-admin-secret': 'hero'},
+                dataType: 'json',
+            }
+            let hasuraUrl = 'http://hasura.new-hero.mokekeji.com/v1/graphql'
+            const hasuraRes = await this.ctx.curl(hasuraUrl, options)
+            if (!hasuraRes.data.hasOwnProperty('data')) {
+                output = {
+                    accessToken: 'error',
+                    id: 0,
+                    hero_authority: false,
+                }
+                ctx.body = output;
+                ctx.status = 201;
+                return
+            }
+        // mutation的返回是这样的
+            let res = hasuraRes.data.data.insert_user.returning[0]
+            const token = jwt.sign(
+                {
+                    "admin": true,
+                    'https://hasura.io/jwt/claims': {
+                        'x-hasura-allowed-roles': ['citizen', 'guest'],
+                        'x-hasura-default-role': 'citizen',
+                        'x-hasura-role': 'citizen',
+                        'x-hasura-id': res.id
+                    },
+                },
+                jwtkey,
+                // 第二个字段设置有效期为30天内
+                {algorithm: 'HS256', expiresIn: '30 days'});
+            output = {
+                accessToken: token,
+                id: res.id,
+                hero_authority: res.hero_authority,
+            }
+        } else {
+            output = {
+                accessToken: 'token',
+                id: 10,
+                hero_authority: false,
+            }
         }
+        ctx.body = output;
         ctx.status = 201;
     }
 }

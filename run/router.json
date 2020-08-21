@@ -125,8 +125,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/api/signUp",
@@ -138,8 +137,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/api/autoSignin",
@@ -151,12 +149,36 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/api/signIn",
     "regexp": "/^\\/api\\/signIn(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test",
+    "regexp": "/^\\/api\\/test(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/test",
+    "regexp": "/^\\/api\\/test(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

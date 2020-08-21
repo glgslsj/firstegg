@@ -14,4 +14,5 @@ module.exports = app => {
     router.post('/api/autoSignin', controller.tryLogin.autoSignin);// helloworld，测试接口
     router.post('/api/signIn', controller.tryLogin.signIn);// helloworld，测试接口
     router.post('/api/test', controller.tryLogin.test);// helloworld，测试接口
+    router.get('/api/test', controller.tryLogin.test);// helloworld，测试接口
 };

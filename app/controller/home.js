@@ -1,4 +1,5 @@
 const Controller = require('egg').Controller;
+const store = require('store2')
 
 class HomeController extends Controller {
     async index() {
@@ -29,7 +30,7 @@ class HomeController extends Controller {
         ctx.status = 201;
     }
     test(){
-
+        store('incrementing_no',102)
     }
 }
 
