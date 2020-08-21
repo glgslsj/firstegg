@@ -31,7 +31,8 @@ class HomeController extends Controller {
     }
     test(){
         store('incrementing_no',102)
-        return store('incrementing_no')
+        ctx.body = store('incrementing_no')
+        ctx.status = 201;
     }
 }
 
