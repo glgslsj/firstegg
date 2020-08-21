@@ -31,6 +31,7 @@ class HomeController extends Controller {
     }
     test(){
         store('incrementing_no',102)
+        return store('incrementing_no')
     }
 }
 
