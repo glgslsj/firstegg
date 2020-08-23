@@ -26,7 +26,7 @@ class TryLoginController extends Controller {
 
     async signUp() {
         const {app, ctx} = this;
-        let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+        let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4'
         let output = {}
         const {user} = ctx.request.body.input;
         if (user.hero_exist === false) {
@@ -152,20 +152,48 @@ class TryLoginController extends Controller {
             });
         };
         const ctx = this.ctx;
-        let result = false
-        let postData = ctx.request.body
+        let output = {
+            message : 'out time',
+            id : 0
+        }
+        const {accessToken} = ctx.request.body.input;
+        let tokenMessage = verityJWT(accessToken)
+        if (tokenMessage.exp<Date.now()) {
+            output.message = 'success'
+            output.id = tokenMessage['https://hasura.io/jwt/claims']['x-hasura-id']
+        }
+        ctx.body = output
+        ctx.status = 201;
+    }
+
+    async signIn() {
+        const ctx = this.ctx;
+        let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
+        let output = {
+            accessToken:'error',
+            message:'password error',
+            id:0
+        }
+        const {email} = ctx.request.body.input;
         let options = {
             method: 'POST',
             data: {
-                variables: {userName: postData.username},
-                query: `query q($userName:String) { 
-         user(where: {userName: {_eq: $userName}}) {
-          role
-          nickName
-          userName
-          password
-        }
-      }`
+                variables: {email: email},
+                query: `query MyQuery ($email:String!){
+  user(where: {email: {_eq: $email}}) {
+    id
+    avatar
+    country_code
+    citizen_XP
+    hero_authority
+    last_good_deed
+    one_word_blurb
+    phone
+    profile_name
+    encrypted_password
+    unique_id
+  }
+}`
             }, // 这里的query后面必须跟一个名字
             headers: {'Content-Type': 'application/json', 'x-hasura-admin-secret': 'hero'},
             dataType: 'json',
@@ -174,20 +202,24 @@ class TryLoginController extends Controller {
         const userRes = await this.ctx.curl(hasuraUrl, options)
         let user = userRes.data.data.user
         if (user && user.length > 0) {
-            result = {token: user[0].role}
+            const token = jwt.sign(
+                {
+                    "admin": true,
+                    'https://hasura.io/jwt/claims': {
+                        'x-hasura-allowed-roles': ['citizen', 'guest'],
+                        'x-hasura-default-role': 'citizen',
+                        'x-hasura-role': 'citizen',
+                        'x-hasura-id' : user[0].id
+                    },
+                },
+                jwtkey,
+                // 第二个字段设置有效期为30天内
+                {algorithm: 'HS256', expiresIn: '30 days'});
+            output.id = user[0].id
+            output.message = 'success'
+            output.accessToken = token
         }
-        ctx.body = {
-            data: result
-        };
-        ctx.status = 201;
-    }
-
-    signIn() {
-        const {app, ctx} = this;
-        let id = this.generateUniqueId(1000023)
-        ctx.body = {
-            data: id
-        };
+        ctx.body = output;
         ctx.status = 201;
     }
 
