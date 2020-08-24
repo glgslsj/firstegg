@@ -32,6 +32,7 @@ class TryLoginController extends Controller {
         if (user.hero_exist === false) {
             let nowno=store('incrementing_no')
             let id = this.generateUniqueId(nowno)
+
             nowno++
             store('incrementing_no',nowno)
             Object.assign(user, {unique_id: id})
@@ -224,7 +225,7 @@ class TryLoginController extends Controller {
     }
 
     async test() {
-        const {app, ctx} = this;
+        /*const {app, ctx} = this;
         let jwtkey = '8YPncVonxi0afQGDbPfIfTpna5nFFIZ4';
         let output = {}
         const {user} = ctx.request.body.input;
@@ -288,7 +289,8 @@ class TryLoginController extends Controller {
             }
         }
         ctx.body = output;
-        ctx.status = 201;
+        ctx.status = 201;*/
+
     }
 }
 
