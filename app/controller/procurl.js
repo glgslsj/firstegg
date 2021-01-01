@@ -16,12 +16,12 @@ class curlController extends Controller {
         if (content.hasOwnProperty('method')&&content.method === 'post'||query.hasOwnProperty('method')&&query.method==='post'){
             if (isfile) {
                 // this.ctx.logger.info(1);
-                if (query.url==='https://upload.ximalaya.com/dtres/headerThumb/upload'||query.url==='https://sm.ms/api/v2/upload'||'https://bbs.vivo.com.cn/home.php?mod=spacecp&ac=avatar&op=upload') {
-                    // this.ctx.logger.info(2);
+                if (query.url==='https://sm.ms/api/v2/upload') {
+                    //this.ctx.logger.info(2);
                     // 如果是向sm.ms发送图片，则
                     result = await ctx.service.mycurl.postfile({content:content, query:query})
                 }else {
-                    // this.ctx.logger.info(3);
+                     //this.ctx.logger.info(3);
                     // 保存文件
                 result = await ctx.service.mycurl.savefile({content:content, query:query})
                 }

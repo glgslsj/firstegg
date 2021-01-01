@@ -63,3 +63,13 @@ name: "ENOENTError"
 pid: 12356
 hostname: DESKTOP-KD3VG42
 
+2021-01-01 13:50:28,448 ERROR 10772 nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\16094802284445982.png' (uncaughtException throw 1 times on pid:10772)
+ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\16094802284445982.png' (uncaughtException throw 1 times on pid:10772)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\tryproject\\firstegg\\app\\public\\upload\\16094802284445982.png"
+name: "ENOENTError"
+pid: 10772
+hostname: DESKTOP-KD3VG42
+

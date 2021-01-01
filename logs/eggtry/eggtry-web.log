@@ -111,3 +111,19 @@ res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"date":"Fri,
 pid: 3040
 hostname: DESKTOP-KD3VG42
 
+2021-01-01 13:49:31,103 INFO 3196 [-/127.0.0.1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] 2
+2021-01-01 13:50:28,442 INFO 10772 [-/127.0.0.1/-/17ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] 3
+2021-01-01 13:50:28,444 INFO 10772 [-/127.0.0.1/-/18ms POST /api/curl?url=http:%2F%2F112.126.102.214:8808&method=post&headers=%7B%22Content-Type%22:%22application%2Fx-www-form-urlencoded%22%7D] { content:
+   { field: 'smfile',
+     filename: 'emoji_0.png',
+     encoding: '7bit',
+     mime: 'image/png',
+     fieldname: 'smfile',
+     transferEncoding: '7bit',
+     mimeType: 'image/png',
+     filepath:
+      'C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry\\2021\\01\\01\\13\\14f09dcf-154d-4937-9d5f-cb3e73b61173.png' },
+  query:
+   { url: 'http://112.126.102.214:8808',
+     method: 'post',
+     headers: '{"Content-Type":"application/x-www-form-urlencoded"}' } }
