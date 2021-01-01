@@ -40,14 +40,14 @@ class NewsService extends Service {
         var filepath = params.content.filepath
         var fieldname = params.content.fieldname
         const form = new FormStream()
-        form.file('smfile', filepath);
+        form.file('Filedata', filepath);
         const result = await this.ctx.curl(params.query.url, {
             method: 'post',
             headers: form.headers(),
             stream:form,
             dataType: 'json',
         });
-        return result.data
+        return result
     }
     // 发送文件给后端保存
     async savefile(params) {

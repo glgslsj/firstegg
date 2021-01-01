@@ -43,3 +43,23 @@ hostname: DESKTOP-KD3VG42
 pid: 7716
 hostname: DESKTOP-KD3VG42
 
+2021-01-01 12:50:37,218 ERROR 2896 nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\1609476637217163.jpg' (uncaughtException throw 1 times on pid:2896)
+ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\1609476637217163.jpg' (uncaughtException throw 1 times on pid:2896)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\tryproject\\firstegg\\app\\public\\upload\\1609476637217163.jpg"
+name: "ENOENTError"
+pid: 2896
+hostname: DESKTOP-KD3VG42
+
+2021-01-01 12:57:02,968 ERROR 12356 nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\16094770229664354.jpg' (uncaughtException throw 1 times on pid:12356)
+ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\16094770229664354.jpg' (uncaughtException throw 1 times on pid:12356)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\tryproject\\firstegg\\app\\public\\upload\\16094770229664354.jpg"
+name: "ENOENTError"
+pid: 12356
+hostname: DESKTOP-KD3VG42
+

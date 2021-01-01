@@ -117,7 +117,10 @@
         "txt",
         "xmind",
         "apk",
-        "zip"
+        "zip",
+        "png",
+        "jpg",
+        "jpeg"
       ],
       "whitelist": null,
       "tmpdir": "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry",

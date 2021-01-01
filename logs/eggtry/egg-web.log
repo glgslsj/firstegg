@@ -239,3 +239,128 @@
 2020-08-24 07:26:50,722 INFO 14600 [egg:core] dump config after load, 10ms
 2020-08-24 07:26:50,777 INFO 14600 [egg-watcher:application] watcher start success
 2020-08-24 07:26:50,794 INFO 14600 [egg:core] dump config after ready, 11ms
+2021-01-01 12:25:52,693 INFO 2896 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 12:25:52,718 INFO 2896 [egg-multipart] file mode enable
+2021-01-01 12:25:52,718 INFO 2896 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 12:25:52,718 INFO 2896 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 12:25:52,776 INFO 2896 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 12:25:52,778 INFO 2896 [egg-security] use methodnoallow middleware
+2021-01-01 12:25:52,778 INFO 2896 [egg-security] use noopen middleware
+2021-01-01 12:25:52,779 INFO 2896 [egg-security] use nosniff middleware
+2021-01-01 12:25:52,779 INFO 2896 [egg-security] use xssProtection middleware
+2021-01-01 12:25:52,780 INFO 2896 [egg-security] use xframe middleware
+2021-01-01 12:25:52,780 INFO 2896 [egg-security] use dta middleware
+2021-01-01 12:25:52,780 INFO 2896 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 12:25:52,929 INFO 2896 [egg:core] dump config after load, 4ms
+2021-01-01 12:25:52,960 INFO 2896 [egg-watcher:application] watcher start success
+2021-01-01 12:25:52,967 INFO 2896 [egg:core] dump config after ready, 6ms
+2021-01-01 12:50:37,220 ERROR 2896 nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\1609476637217163.jpg' (uncaughtException throw 1 times on pid:2896)
+ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\1609476637217163.jpg' (uncaughtException throw 1 times on pid:2896)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\tryproject\\firstegg\\app\\public\\upload\\1609476637217163.jpg"
+name: "ENOENTError"
+pid: 2896
+hostname: DESKTOP-KD3VG42
+
+2021-01-01 12:53:00,244 INFO 11868 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 12:53:00,271 INFO 11868 [egg-multipart] file mode enable
+2021-01-01 12:53:00,271 INFO 11868 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 12:53:00,271 INFO 11868 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 12:53:00,326 INFO 11868 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 12:53:00,328 INFO 11868 [egg-security] use methodnoallow middleware
+2021-01-01 12:53:00,329 INFO 11868 [egg-security] use noopen middleware
+2021-01-01 12:53:00,329 INFO 11868 [egg-security] use nosniff middleware
+2021-01-01 12:53:00,329 INFO 11868 [egg-security] use xssProtection middleware
+2021-01-01 12:53:00,330 INFO 11868 [egg-security] use xframe middleware
+2021-01-01 12:53:00,330 INFO 11868 [egg-security] use dta middleware
+2021-01-01 12:53:00,330 INFO 11868 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 12:53:00,476 INFO 11868 [egg:core] dump config after load, 5ms
+2021-01-01 12:53:00,505 INFO 11868 [egg-watcher:application] watcher start success
+2021-01-01 12:53:00,512 INFO 11868 [egg:core] dump config after ready, 5ms
+2021-01-01 12:55:15,858 INFO 12356 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 12:55:15,884 INFO 12356 [egg-multipart] file mode enable
+2021-01-01 12:55:15,884 INFO 12356 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 12:55:15,884 INFO 12356 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 12:55:15,941 INFO 12356 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 12:55:15,943 INFO 12356 [egg-security] use methodnoallow middleware
+2021-01-01 12:55:15,944 INFO 12356 [egg-security] use noopen middleware
+2021-01-01 12:55:15,944 INFO 12356 [egg-security] use nosniff middleware
+2021-01-01 12:55:15,945 INFO 12356 [egg-security] use xssProtection middleware
+2021-01-01 12:55:15,945 INFO 12356 [egg-security] use xframe middleware
+2021-01-01 12:55:15,945 INFO 12356 [egg-security] use dta middleware
+2021-01-01 12:55:15,945 INFO 12356 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 12:55:16,091 INFO 12356 [egg:core] dump config after load, 4ms
+2021-01-01 12:55:16,118 INFO 12356 [egg-watcher:application] watcher start success
+2021-01-01 12:55:16,127 INFO 12356 [egg:core] dump config after ready, 5ms
+2021-01-01 12:57:02,970 ERROR 12356 nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\16094770229664354.jpg' (uncaughtException throw 1 times on pid:12356)
+ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\upload\16094770229664354.jpg' (uncaughtException throw 1 times on pid:12356)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\tryproject\\firstegg\\app\\public\\upload\\16094770229664354.jpg"
+name: "ENOENTError"
+pid: 12356
+hostname: DESKTOP-KD3VG42
+
+2021-01-01 12:57:26,275 INFO 7152 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 12:57:26,309 INFO 7152 [egg-multipart] file mode enable
+2021-01-01 12:57:26,309 INFO 7152 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 12:57:26,309 INFO 7152 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 12:57:26,400 INFO 7152 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 12:57:26,402 INFO 7152 [egg-security] use methodnoallow middleware
+2021-01-01 12:57:26,403 INFO 7152 [egg-security] use noopen middleware
+2021-01-01 12:57:26,404 INFO 7152 [egg-security] use nosniff middleware
+2021-01-01 12:57:26,404 INFO 7152 [egg-security] use xssProtection middleware
+2021-01-01 12:57:26,405 INFO 7152 [egg-security] use xframe middleware
+2021-01-01 12:57:26,405 INFO 7152 [egg-security] use dta middleware
+2021-01-01 12:57:26,405 INFO 7152 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 12:57:26,655 INFO 7152 [egg:core] dump config after load, 6ms
+2021-01-01 12:57:26,692 INFO 7152 [egg-watcher:application] watcher start success
+2021-01-01 12:57:26,706 INFO 7152 [egg:core] dump config after ready, 7ms
+2021-01-01 13:06:40,021 INFO 3040 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 13:06:40,048 INFO 3040 [egg-multipart] file mode enable
+2021-01-01 13:06:40,048 INFO 3040 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 13:06:40,048 INFO 3040 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 13:06:40,110 INFO 3040 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 13:06:40,112 INFO 3040 [egg-security] use methodnoallow middleware
+2021-01-01 13:06:40,112 INFO 3040 [egg-security] use noopen middleware
+2021-01-01 13:06:40,113 INFO 3040 [egg-security] use nosniff middleware
+2021-01-01 13:06:40,113 INFO 3040 [egg-security] use xssProtection middleware
+2021-01-01 13:06:40,114 INFO 3040 [egg-security] use xframe middleware
+2021-01-01 13:06:40,114 INFO 3040 [egg-security] use dta middleware
+2021-01-01 13:06:40,114 INFO 3040 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 13:06:40,263 INFO 3040 [egg:core] dump config after load, 5ms
+2021-01-01 13:06:40,291 INFO 3040 [egg-watcher:application] watcher start success
+2021-01-01 13:06:40,299 INFO 3040 [egg:core] dump config after ready, 5ms
+2021-01-01 13:21:40,579 INFO 1516 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 13:21:40,606 INFO 1516 [egg-multipart] file mode enable
+2021-01-01 13:21:40,606 INFO 1516 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 13:21:40,606 INFO 1516 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 13:21:40,675 INFO 1516 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 13:21:40,677 INFO 1516 [egg-security] use methodnoallow middleware
+2021-01-01 13:21:40,678 INFO 1516 [egg-security] use noopen middleware
+2021-01-01 13:21:40,679 INFO 1516 [egg-security] use nosniff middleware
+2021-01-01 13:21:40,679 INFO 1516 [egg-security] use xssProtection middleware
+2021-01-01 13:21:40,679 INFO 1516 [egg-security] use xframe middleware
+2021-01-01 13:21:40,680 INFO 1516 [egg-security] use dta middleware
+2021-01-01 13:21:40,680 INFO 1516 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 13:21:40,867 INFO 1516 [egg:core] dump config after load, 4ms
+2021-01-01 13:21:40,894 INFO 1516 [egg-watcher:application] watcher start success
+2021-01-01 13:21:40,906 INFO 1516 [egg:core] dump config after ready, 5ms
+2021-01-01 13:21:41,718 INFO 10632 [egg:logger] init all loggers with options: {"dir":"E:\\tryproject\\firstegg\\logs\\eggtry","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggtry-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-01 13:21:41,745 INFO 10632 [egg-multipart] file mode enable
+2021-01-01 13:21:41,745 INFO 10632 [egg-multipart] will save temporary files to "C:\\Users\\11098\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggtry", cleanup job cron: "0 30 4 * * *"
+2021-01-01 13:21:41,745 INFO 10632 [egg-email] connecting smtp.qq.com@465:[object Object]/%
+2021-01-01 13:21:41,800 INFO 10632 [egg-static] starting static serve /public/ -> E:\tryproject\firstegg\app\public
+2021-01-01 13:21:41,802 INFO 10632 [egg-security] use methodnoallow middleware
+2021-01-01 13:21:41,802 INFO 10632 [egg-security] use noopen middleware
+2021-01-01 13:21:41,803 INFO 10632 [egg-security] use nosniff middleware
+2021-01-01 13:21:41,803 INFO 10632 [egg-security] use xssProtection middleware
+2021-01-01 13:21:41,803 INFO 10632 [egg-security] use xframe middleware
+2021-01-01 13:21:41,803 INFO 10632 [egg-security] use dta middleware
+2021-01-01 13:21:41,803 INFO 10632 [egg-security] compose 6 middlewares into one security middleware
+2021-01-01 13:21:41,955 INFO 10632 [egg:core] dump config after load, 6ms
+2021-01-01 13:21:41,979 INFO 10632 [egg-watcher:application] watcher start success
+2021-01-01 13:21:41,991 INFO 10632 [egg:core] dump config after ready, 5ms
