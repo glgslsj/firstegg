@@ -73,3 +73,13 @@ name: "ENOENTError"
 pid: 10772
 hostname: DESKTOP-KD3VG42
 
+2021-01-01 23:18:49,487 ERROR 13000 nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\pic\p16095143294825471.png' (uncaughtException throw 1 times on pid:13000)
+ENOENTError: ENOENT: no such file or directory, open 'E:\tryproject\firstegg\app\public\pic\p16095143294825471.png' (uncaughtException throw 1 times on pid:13000)
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\tryproject\\firstegg\\app\\public\\pic\\p16095143294825471.png"
+name: "ENOENTError"
+pid: 13000
+hostname: DESKTOP-KD3VG42
+

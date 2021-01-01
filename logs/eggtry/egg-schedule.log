@@ -133,3 +133,21 @@
 2021-01-01 13:50:18,868 INFO 10772 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-01-01 13:50:18,868 INFO 10772 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-01-01 13:50:18,868 INFO 10772 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-01 23:17:42,849 INFO 1528 [Timer] E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 18737154ms at 2021-01-02 04:30:00.003
+2021-01-01 23:17:42,849 INFO 1528 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 2537151ms at 2021-01-02 00:00:00.000
+2021-01-01 23:17:42,849 INFO 1528 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 2538151ms at 2021-01-02 00:00:01.000
+2021-01-01 23:17:42,313 INFO 11460 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-01 23:17:42,313 INFO 11460 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-01 23:17:42,313 INFO 11460 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-01 23:17:43,827 INFO 15328 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-01 23:17:43,827 INFO 15328 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-01 23:17:43,827 INFO 15328 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-01 23:17:45,067 INFO 13000 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-01 23:17:45,067 INFO 13000 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-01 23:17:45,067 INFO 13000 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-01 23:23:54,398 INFO 1656 [Timer] E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 18365605ms at 2021-01-02 04:30:00.003
+2021-01-01 23:23:54,399 INFO 1656 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 2165601ms at 2021-01-02 00:00:00.000
+2021-01-01 23:23:54,399 INFO 1656 [Timer] E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 2166601ms at 2021-01-02 00:00:01.000
+2021-01-01 23:23:54,103 INFO 9068 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-01 23:23:54,103 INFO 9068 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-01 23:23:54,103 INFO 9068 [egg-schedule]: register schedule E:\tryproject\firstegg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
