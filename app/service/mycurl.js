@@ -37,7 +37,7 @@ class NewsService extends Service {
     }
     // 发送文件给query里的url，这里主要是给图片保存外链。
     async postfile(params) {
-        var filepath = params.content.filepath
+        /*var filepath = params.content.filepath
         var fieldname = params.content.fieldname
         const form = new FormStream()
         form.file('Filedata', filepath);
@@ -47,11 +47,24 @@ class NewsService extends Service {
             stream:form,
             dataType: 'json',
         });
-        return result
+        return result*/
+        //这段是原本smms的方法暂时换成存到本地
+        const uplaodBasePath = 'app/public/pic/';
+        // 生成文件名
+        const filename = 'p'+Date.now() + '' + Number.parseInt(Math.random() * 10000) + path.extname(params.content.filename);
+        // 生成文件夹
+        const target = path.join(this.config.baseDir, uplaodBasePath, filename);
+        // 写入流
+        const writeStream = fs.createWriteStream(target);
+        let stream = fs.createReadStream(params.content.filepath);
+        await stream.pipe(writeStream);
+        return {
+            filename:filename
+        }
     }
     // 发送文件给后端保存
     async savefile(params) {
-        this.ctx.logger.info(params);
+        //this.ctx.logger.info(params);
         // 上传基础目录
         const uplaodBasePath = 'app/public/upload/';
         // 生成文件名

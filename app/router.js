@@ -9,6 +9,7 @@ module.exports = app => {
     router.post('/api/role', controller.role.index); // 身份判别的接口
     router.post('/api/download', controller.downloadFile.download);// 下载的post接口
     router.get('/api/download', controller.downloadFile.getdownload);// 下载的get接口
+    router.get('/api/getpic', controller.downloadFile.getpic);// 下载的get接口
     router.post('/api/confirmId', controller.confirmId.index); // 本人判断并换密码的接口
     router.post('/api/tryaction', controller.hasuraAction.index); // 本人判断并换密码的接口
     router.post('/api/signUp', controller.tryLogin.signUp);// helloworld，测试接口

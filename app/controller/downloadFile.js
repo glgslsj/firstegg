@@ -23,6 +23,15 @@ class IndexController extends Controller {
         this.ctx.set('Content-Type', 'application/octet-stream');
         this.ctx.body = fs.createReadStream(filePath);
     }
+    async getpic() {
+        // 下载图片的get接口
+        //this.ctx.logger.info(this.ctx.request.query)
+        let filename = this.ctx.request.query.filename
+        const filePath = path.resolve('./app/public/pic', this.ctx.request.query.filename);
+        this.ctx.attachment(filename);
+        this.ctx.set('Content-Type', 'application/octet-stream');
+        this.ctx.body = fs.createReadStream(filePath);
+    }
 }
 
 module.exports = IndexController;
